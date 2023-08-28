@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="csrf-token" content="wvpCAxAP4XAMZjJ94zyhGhQdCdgxZY0MxDMHUzr7">
+<title>Profile</title>
+<!-- CSS -->
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" type="text/css" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+	<section class="banner">
+		<header>
+			<div class="profile_header2">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo.svg" class="desk_logo1" alt="Logo" />
+						<img src="images/black-logo.svg" class="desk_logo2" alt="Logo" />
+						<img src="images/mobile-logo.svg" class="mobile_logo" alt="Logo" />
+					</a>
+					<div class="collapse navbar-collapse header_menu" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destination<span class="material-symbols-outlined">expand_more</span></a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Destination 1</a>
+									<a class="dropdown-item" href="#">Destination 2</a>
+									<a class="dropdown-item" href="#">Destination 3</a>
+									<a class="dropdown-item" href="#">Destination 4</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel By Theme<span class="material-symbols-outlined">expand_more</span></a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Theme 1</a>
+									<a class="dropdown-item" href="#">Theme 2</a>
+									<a class="dropdown-item" href="#">Theme 3</a>
+									<a class="dropdown-item" href="#">Theme 4</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About Us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact Us</a>
+							</li>
+							<li class="nav-item nav-itemBtn" style="display: none;">
+								<a class="nav-link btn" href="login-with-email.html"><span class="material-symbols-outlined">person</span>Login</a>
+							</li>
+							<li class="nav-item nav-itemBtn">
+								<a href="profile.html">
+									<div class="user_profile">
+										<img src="images/user_img.jpg" alt="User Profile" />
+									</div>
+								</a>
+							</li>
+						</ul>
+						<div class="mobile-nav">
+							<div class="b-nav">
+								<div class="accordion" id="header_menu">
+									<div class="accordion-item">
+									  <a href="#" class="active"><h2 class="accordion-header">Home</h2></a>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingOne">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+												Destination<span class="material-symbols-outlined">expand_more</span>
+											</button>
+										</h2>
+										<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#header_menu">
+											<div class="accordion-body">
+												<div class="sidebar_menuItems">
+													<ul>
+														<li> 
+															<a href="#" class="active">Destination 1</a>
+														</li>
+														<li> 
+															<a href="#">Destination 2</a>
+														</li>
+														<li> 
+															<a href="#">Destination 3</a>
+														</li>
+														<li> 
+															<a href="#">Destination 4</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingTwo">
+											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												Travel By Theme<span class="material-symbols-outlined">expand_more</span>
+											</button>
+										</h2>
+										<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#header_menu">
+											<div class="accordion-body">
+												<div class="sidebar_menuItems">
+													<ul>
+														<li> 
+															<a href="#" class="active">Theme 1</a>
+														</li>
+														<li> 
+															<a href="#">Theme 2</a>
+														</li>
+														<li> 
+															<a href="#">Theme 3</a>
+														</li>
+														<li> 
+															<a href="#">Theme 4</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<a href="#"><h2 class="accordion-header">About Us</h2></a>
+									</div>
+									<div class="accordion-item">
+										<a href="#"><h2 class="accordion-header">Contact Us</h2></a>
+									</div>
+								</div>
+							</div>
+							<!-- Burger-Icon -->
+							<div class="b-container">
+								<div class="b-menu">
+									<div class="b-bun b-bun--top"></div>
+									<div class="b-bun b-bun--mid"></div>
+									<div class="b-bun b-bun--bottom"></div>
+								</div>
+								<!-- Burger-Brand --> 
+								<a href="#" class="b-brand"></a> 
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- END header -->
+		<!-- START bannerArea -->
+		<div class="bannerArea">
+			<div class="container">
+				<div class="bannerAreaInner">
+					<h1>Unravelled Travel Experience.</h1>
+					<p>If you find a better deal, we will match it!!!</p>
+					<div class="bannerRadio">
+						<div class="form-group">
+							<label class="radioCustom">Roundtrip
+								<input type="radio" checked="checked" name="radio">
+								<span class="checkmark"></span>
+							</label>
+							<label class="radioCustom">Oneway
+								<input type="radio" name="radio">
+								<span class="checkmark"></span>
+							</label>
+						</div>
+					</div>
+					<div class="bannerForm">
+						<div class="bannerFromTo">
+							<div class="form-group">
+								<input class="form-control" placeholder="From" type="text" name="sub_email">
+							</div>
+						</div>
+						<div class="bannerFromTo">
+							<div class="form-group">
+								<input class="form-control" placeholder="To" type="text" name="sub_email">
+							</div>
+						</div>
+						<div class="dateInner">
+							<input id="txtDate" type="text" class="form-control date-input" placeholder="Pick a Date" readonly="readonly">
+						</div>
+						<div class="dateInner">
+							<input id="txtDate2" type="text" class="form-control date-input" placeholder="Pick a Date" readonly="readonly">
+						</div>
+						<div class="bannerFormInner">
+							<div class="form-control p-0">
+								<div class="passEco_dropdown">
+									<a href="javascript:void(0);"><span>9 Passengers</span><span>Premium Economy</span></a>
+									<div class="passEco_dropBox">
+									    <div>
+											<div class="passEco_drop1">
+												<h4>Passenger</h4>
+												<div class="drop_box">
+													<div class="drop_box1">
+														<p>Adults (12+ Yrs)</p>
+														<div class="drop_box11">
+															<input type="button" value="-" readonly>
+															<input type="text" value="9" readonly>
+															<input type="button" value="+"readonly>
+														</div>
+													</div>
+													<div class="drop_box1">
+														<p>Children (2-11 Yrs)</p>
+														<div class="drop_box11">
+															<input type="button" value="-" readonly>
+															<input type="text" value="0" readonly>
+															<input type="button" value="+"readonly>
+														</div>
+													</div>
+													<div class="drop_box1">
+														<p>Infant (Below 2 Yrs)</p>
+														<div class="drop_box11">
+															<input type="button" value="-" readonly>
+															<input type="text" value="0" readonly>
+															<input type="button" value="+"readonly>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="passEco_drop2">
+												<h4>Class</h4>
+												<ul>
+													<li type="button">Economy</li>
+													<li class="active" type="button">Premium Economy</li>
+													<li type="button">Business Class</li>
+													<li type="button">First Class</li>
+												</ul>
+											</div>
+										</div>
+										<div class="apply_filters">
+											<a href="#">Done</a>
+										</div>
+								    </div>
+							    </div>
+					        </div>
+						</div>
+						<div class="bannerBtn">
+							<a class="btn btnTheme" href="#">Search</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END bannerArea -->
+	</section>
+	<!-- END banner -->
+	<section class="profile_sec1">
+		<div class="container">
+			<div class="profile_sec2">
+				<div class="profile_sidebar">
+					<div class="prof_div1">
+						<div><img src="images/profile-img.jpg" alt="Profile" /></div>
+						<div>
+							<span>Welcome</span>
+							<p>Allie Grater</p>
+						</div>
+					</div>
+					<div class="prof_div2">
+						<ul>
+							<li>
+								<a href="#" class="active">
+									<span class="material-symbols-outlined">perm_identity</span>
+									<p>My Profile</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="material-symbols-outlined">history</span>
+									<p>My Trips</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="profile_content">
+					<div class="prof_div5">
+						<div class="prof_div3">
+							<h3>Profile Details</h3>
+						</div>
+						<div class="prof_div4">
+							<img id="profileImgPre" src="images/profile-img.jpg" alt="Profile" />
+							<div class="upload_files">
+								<span class="input_files">
+									<input type="file" id="imgPreview" accept="image/png, image/jpeg" single />
+								</span>
+								<img src="images/edit.svg" alt="Edit" />
+							</div>
+						</div>
+						<div class="form_group">
+							<div class="lbl-required">
+								<label>First Name</label>
+								<span class="text-danger">*</span>
+							</div>
+							<input type="text" name="firstname" value="Allie" />
+						</div>
+						<div class="form_group">
+							<div class="lbl-required">
+								<label>Last Name</label>
+								<span class="text-danger">*</span>
+							</div>
+							<input type="text" name="lastname" value="Grater" />
+						</div>
+						<div class="form_group">
+							<div class="lbl-required">
+								<label>Mobile Number<span class="material-symbols-outlined">verified</span></label>
+								<span class="text-danger">*</span>
+							</div>
+							<input type="number" name="mobileno" value="6789432112" />
+						</div>
+						<div class="form_group mb-0">
+							<div class="lbl-required">
+								<label>Email Address</label>
+								<span class="text-danger">*</span>
+							</div>
+							<input type="email" name="email" value="grater1123@gmail.com" />
+							<a href="#" class="varify_em">Verify</a>
+						</div>
+					</div>
+					<div class="prof_div6">
+						<div class="prof_div61">
+							<h4>Change Password</h4>
+							<div class="form_group">
+								<div class="lbl-required">
+									<label>Set Password</label>
+									<span class="text-danger">*</span>
+								</div>
+								<input type="password" name="setpassword" value="123456789" />
+							</div>
+							<div class="form_group mb-0">
+								<div class="lbl-required">
+									<label>Confirm Password</label>
+									<span class="text-danger">*</span>
+								</div>
+								<input type="password" name="confirmpassword" value="123456789" />
+							</div>
+							<div class="form_btn">
+								<a href="#">Save</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footerTop">
+				<div class="row">
+					<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 footerRES">
+						<div class="footerInner">
+							<a class="logoFooter" href="index.html"><img src="images/logo.svg" alt="logo" /></a>
+							<div class="siteDetails">
+								<h3>Travel Unravel Holidays Private</h3>
+								<p>LimitedBearing Registration Number 07445398 is a company registered in England and Wales at Rear Ground Floor Hygeia Building, 66-68 College Road, Harrow, Middlesex, United Kingdom, HA1 1BE.</p>
+							</div>
+							<div class="siteDetails">
+								<h3>Corporate Office</h3>
+								<p>Corporate OfficeTravel Unravel Holidays<br /> 30th Floor 40 bank street<br /> Canary Wharf London E14 5NR</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 footerRES">
+						<div class="footerInner">
+							<h3>Quick Links</h3>
+							<ul>
+								<li><a href="about_us.html">About Us</a></li>
+								<li><a href="#">Disclaimer </a></li>
+								<li><a href="faq.html">FAQs</a></li>
+								<li><a href="#">Why Travel with Us? </a></li>
+								<li><a href="#">Self Payment</a></li>
+								<li><a href="#">Sitemap</a></li>
+							</ul>
+							<h3>Travel Partner</h3>
+							<ul>
+								<li><a href="#">Carbon Neutral Britain</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12 footerRES">
+						<div class="footerInner">
+							<h3>Legal</h3>
+							<ul>
+								<li><a href="#">Terms of Website </a></li>
+								<li><a href="#">Use</a></li>
+								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="#">Data Protection</a></li>
+								<li><a href="#">Policy</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Cookies Policy</a></li>
+								<li><a href="#">Travel Partner</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 footerRES">
+						<div class="footerInner">
+							<h3>Social Media</h3>
+							<div class="socialIcon">
+								<ul>
+									<li><a href="https://www.facebook.com/travelunraveluk" target="_blank"><i class="la la-facebook"></i></a></li>
+									<li><a href="https://www.instagram.com/travelunraveluk" target="_blank"><i class="la la-instagram"></i></a></li>
+									<li><a href="https://twitter.com/TravelUnravelUK" target="_blank"><i class="la la-twitter"></i></a></li>
+								</ul>
+							</div>
+							<h3>Reach Us</h3>
+							<div class="addressFooter">
+								<ul>
+									<li>
+										<p>0203 588 8444</p>
+									</li>
+									<li>
+										<p>support@travelunravel.com</p>
+									</li>
+									<li>
+										<p>info@travelunravel.com</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copy">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 copyRES">
+						<div class="copyInner">
+							<p>&copy; 2022 Travel Unravel Holidays Private Limited</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--========= MOBILE MENU SCRIPT START =========-->
+<script>
+'use strict';
+(function() {
+    var body = document.body;
+    var burgerMenu = document.getElementsByClassName('b-menu')[0];
+    var burgerContain = document.getElementsByClassName('b-container')[0];
+    var burgerNav = document.getElementsByClassName('b-nav')[0];
+    burgerMenu.addEventListener('click', function toggleClasses() {
+        [body, burgerContain, burgerNav].forEach(function (el) {
+            el.classList.toggle('open');
+        });
+    }, false);
+})();
+</script>
+<!--=========== MOBILE MENU SCRIPT END ==========-->
+<script>
+$('header').each(function() {
+	$(this).addClass('profile_header').parent().before(this);
+});
+$('section.banner').hide();
+</script>
+<!--======= PROFILE IMG PREVIEW SCRIPT START ========-->
+<script>
+function readURL(input) {
+	if (input.files && input.files[0]) {
+		var reader = new FileReader();
+		reader.onload = function (e) {
+			$('#profileImgPre').attr('src', e.target.result);
+		}
+		reader.readAsDataURL(input.files[0]);
+	}
+}
+$("#imgPreview").change(function () {
+	readURL(this);
+});
+</script>
+<!--======== PROFILE IMG PREVIEW SCRIPT END =========-->
+</body>
+</html>

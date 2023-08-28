@@ -1,0 +1,548 @@
+@media (max-width: 1900px) { 
+    .logInArea a.logo { left: 150px; }
+    .users { padding-bottom: 100px; }
+}
+@media (max-width: 1600px) { 
+    .logInArea a.logo { left: 25px;  }
+    .users { padding: 50px; padding-bottom: 90px; width: 100%;  }
+    .logInLeft { width: calc(100% - 460px);  }
+    .logInOuter {  width: 460px; }
+    .profile_sec1:before {  height: 280px; }
+}
+@media (max-width: 1540px) { 
+    .navbar-nav li { padding: 0 15px; }
+    .index_sec31 { width: calc(50% - 50px); margin-right: 50px; }
+}
+@media (max-width: 1440px) { 
+    .bannerArea { padding: 70px 0 120px;  }
+    .newsletterRight {  padding: 100px 0 100px 20px;  } 
+    .newsletterRight h2:before { right: -135px; bottom: 7px; width: 280px; height: 130px; }  
+    .profile_sec1:before { height: 250px; }
+}
+@media (max-width: 1366px) {
+    .logIn h2 { font-size: 40px; line-height: 53px; margin-bottom: 15px; }
+    .users .otp .form-control {  width: 40px; height: 40px; }
+    .users .otp { gap: 10px 10px; }
+    .banner { background-size: cover; }
+    .bannerArea { padding: 50px 0 100px; }
+    header { padding: 20px; height: unset; }
+    header .navbar { padding: 0; }
+    .navbar-brand {  padding: 0; }
+    .navbar-nav li { padding: 0 20px; }
+    .bannerAreaInner h1 { font-size: 60px; line-height: 80px; margin-bottom: 10px;  }
+    .bannerAreaInner h1:before { width: 250px;  height: 82px; }
+    .bannerAreaInner > p { margin-bottom: 40px;}
+    .index_sec31 ul {  gap: 15px;  }
+    .index_sec31 {  width: calc(50% - 30px);  margin-right: 30px;  }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 {  font-size: 40px;  line-height: 52px; }
+    .index_sec211 h2 span:before {  width: 245px; height: 16px; }
+    .index_sec2, .index_sec4, .greatTravelMain { padding: 60px 0; }
+    .index_sec22 { margin-top: 50px; }
+    .index_sec32 p { font-size: 20px;  line-height: 26px; }
+    .index_sec31 ul li p { font-size: 20px; line-height: 26px; }
+    .index_sec3 { padding: 30px 20px; }
+    .index_sec31 ul li { width: 260px; padding: 15px; }
+    .index_sec31 ul li img { height: 70px;}
+    .newsletterRight { padding: 80px 0 80px 20px; }
+    .newsletterRight h2 { font-size: 38px; line-height: 50px; }
+    .newsletterRight h2:before { right: -110px; bottom: 15px; width: 230px; height: 100px; }
+    .headingOther h2:before { width: 250px; }
+    .error_sec2 img { width: 650px; }
+    .flightSummaryInner ul li:nth-child(4) { width: 10%; }
+    .summaryLine { width: 100%;}
+}
+
+@media (max-width: 1280px) {    
+    .bannerAreaInner > p { margin-bottom: 20px;}
+    .index_sec2, .index_sec4, .greatTravelMain { padding: 50px 0; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 38px; line-height: 48px; }
+    .newsletterRight h2 { font-size: 36px; line-height: 46px; }
+    .newsletterRight { padding: 80px 0 80px 10px; }
+    .headingOther h2:before { width: 230px; }
+    .index_sec212 p, .newsletterRight p, .headingOther p { line-height: 24px; font-size: 16px; }
+    .index_sec22 { margin-top: 40px; }
+    .index_sec31 ul li { width: 230px; }
+    .index_sec31 ul li p { font-size: 18px; line-height: 24px; }
+    .index_sec41 ul { margin-top: 30px; }
+    .headingOther { margin-bottom: 30px; }
+    .index_sec32 p { font-size: 18px; line-height: 24px; }
+    .logIn h2 { font-size: 38px; line-height: 48px; }
+    .logIn { margin: 0 0 40px; }
+    .users .form-group.formBtn {  margin: 40px 0 20px; }
+    .logInLeft img { object-position: 20% 0; }
+    .prof_div3 h3 { font-size: 28px; line-height: 38px; }
+    .prof_div61 h4 { font-size: 23px; line-height: 28px; }
+    .prof_div3 { margin-bottom: 30px; }
+    .prof_div5, .prof_div61 { padding: 40px; }
+    .prof_div1 { padding: 30px; padding-bottom: 50px; }
+    .error_sec1 { padding: 50px 0; }
+    .error_sec2 img { width: 620px; }
+    .error_sec2 h3 { font-size: 28px; line-height: 35px; }
+}
+@media (max-width: 1199px) {    
+    .logInLeft img {  object-position: 18%;   }
+    .bannerAreaInner h1 { font-size: 58px; line-height: 78px; }
+    .bannerAreaInner > p {  font-size: 30px; line-height: 40px;}
+    .navbar-brand>img { width: 220px; }
+    .bannerFromTo {  width: 50%; border-bottom: 1px solid #dddddd; }
+    .dateInner { width: 25%; }
+    .bannerFormInner { width: 50%; }
+    .passEco_dropBox { top: 70px; right: 0; }
+    .passEco_dropBox:before { right: 220px; }
+    .bannerBtn .btn { height: 50px; line-height: 50px; border-radius: 0 0 3px 3px; }
+    .bannerBtn { width: 100%;  }
+    .navbar-nav li { padding: 0 15px; }
+    .index_sec212 p { margin-top: 0; }
+    .index_sec22 ul {  gap: 20px; }
+    .index_sec22 ul li { width: calc(25% - 15px); }
+    .index_sec41 ul { gap: 15px; }
+    .index_sec41 ul li p { font-size: 14px; }
+    .newsletterRight h2 { font-size: 34px; line-height: 44px;  }
+    .siteDetails { margin-right: 20px; }
+    .dateInner input { text-align: left; }
+    .profile_sidebar { width: 320px; }
+    .profile_content { width: calc(100% - 320px); }
+    .prof_div1 { padding: 20px; padding-bottom: 40px; }
+    .prof_div1 > div:first-child { width: 70px; height: 70px;  }
+    .prof_div3 h3 { font-size: 26px; line-height: 36px;  }
+    .prof_div3 {  margin-bottom: 25px; }
+    .prof_div2 ul li a { padding: 10px 25px;  }
+    .prof_div61 h4 { font-size: 22px; line-height: 26px; margin-bottom: 25px;  }
+    .prof_div4 { width: 160px; height: 160px; margin-bottom: 30px;  }
+    .profile_sec1:before { height: 220px;  }
+    .user_profile { width: 45px; height: 45px; }
+    .logoFooter img {  width: 220px; }
+    .error_sec1 { padding: 40px 0; }
+    .error_sec2 img { width: 600px; }
+    .error_sec2 h3 { font-size: 26px; line-height: 32px; }
+    .flightSummaryInner ul li:first-child { width: 57%; }
+    .flightSummaryInner ul li:nth-child(2) { width: 30%; text-align: left; }
+    .img_Plane img {  margin: 0 0 5px;}
+    .flightSummaryInner ul li:nth-child(3) { width: 30%; }
+    .flightSummaryInner ul li:nth-child(4) { width: 22%; }
+    .flightSummaryInner ul li:nth-child(5) { width: 40%; }
+    .summaryLine {  width: 90px; }
+    .flightRes_sec2 .container { max-width: 95%;}
+    .filter_tabs .checkCustom {  padding: 5px 9px; }
+    .flightRight { padding-left: 0; }
+
+    .baggage img.companyName { width: 30px; margin-right: 5px; }
+    .flightRightDataHead h4 b { font-size: 16px; line-height: 22px;}
+    .flightRightDataHead h4 span {font-size: 12px; line-height: 16px; margin-top: 4px; }
+    .flightRightDataInner ul li:nth-child(3) { width: calc(40% - 16px); }
+    .accordionBodyInner { width: 100%;}
+    .accordionList ul li:nth-child(2) { width: calc(40% - 15px); }
+}
+
+
+@media (max-width: 1100px) {
+    .navbar-brand>img { width: 200px;  }
+    .navbar-nav li { padding: 0 10px; }
+    .newsletterRight h2:before { right: -70px; bottom: 25px; width: 150px; height: 49px; }
+    .index_sec31 { width: calc(55% - 30px); }
+    .index_sec32 { width: 45%;  }
+    .index_sec32 a { display: inline; }
+    .users { padding: 40px; padding-bottom: 80px; }
+    .logInLeft { width: calc(100% - 420px); }
+    .logInOuter { width: 420px; }
+    .users .form-group.formBtn { margin: 30px 0 20px; }
+    .logIn {  margin: 0 0 30px; }
+    .logInLeft img { object-position: 20%; }
+    .logInArea a.logo img { width: 200px; }
+    .user_profile { width: 40px; height: 40px; }
+    .logoFooter img {  width: 200px; }
+}
+
+@media (max-width: 1024px) {
+    .navbar-light .navbar-nav .nav-link { font-size: 18px; }
+    .logInArea a.logo { top: 20px;  left: 20px; }
+    .logInLeft img { object-position: 12%;  }
+}
+
+@media (max-width: 991px) {
+    .mobile-nav .accordion-item h2 { font-size: 20px; line-height: 28px;color: #000; font-family: 'FuturaPT-Book'; margin-bottom: 0; -webkit-font-smoothing: antialiased; display: flex; width: 100%; gap: 5px; }
+    .mobile-nav .accordion-item h2 button { background: unset; border: unset;  padding: 0; display: flex;  align-items: center;  width: 100%; 
+    color: #000000; font-size: 20px;  line-height: 28px;  box-shadow: none; }
+    .mobile-nav .accordion-item h2 button.accordion-button::after { display: none; }
+    .mobile-nav .accordion-item h2 button span { vertical-align: middle; margin-left: 5px; }
+    .mobile-nav .accordion-item h2 button:focus {  outline: unset;  outline:unset;  }
+    .mobile-nav .accordion-item .accordion-body {  padding: 0;  }
+    .mobile-nav .accordion-item { border: 0; border-bottom: 1px solid #eee;  padding: 10px 0;  }
+    .mobile-nav .b-nav ul {  padding-left: 15px;  margin-top: 10px;  }
+    .links p {  color: #000;  margin-bottom: 0;  }
+    .mobile-nav { display: block;  }
+    .mobile-nav .sidebar_menuItems ul { padding-left: 15px; margin-top: 10px; animation: none; transition: none; position: unset;  }
+    .mobile-nav .sidebar_menuItems ul li { width: 100%; display: block;  animation: none; transition: none; transform: none; }
+    .mobile-nav .sidebar_menuItems ul li a {  font-size: 20px; line-height: 28px;  color: #000000;  font-family: 'FuturaPT-Book';  -webkit-font-smoothing: antialiased;  padding: 3px 0;  display: block; }
+    header { padding: 12px 20px;  min-height: unset; }
+    header.fixed_header { background: #ffffff; width: 100%;  position: fixed;  left: 0;  right: 0;  z-index: 9999;  box-shadow: 0 2px 5px rgb(0 0 0 / 19%);  transition: .3s all; }
+    header.profile_header { padding: 0 0 69px 0; }
+    header.profile_header .profile_header2 { padding: 12px 20px;  width: 100%; position: fixed;  left: 0; right: 0; z-index: 9; transition: .3s all; background: #ffffff; }
+    .collapse.header_menu:not(.show) { display: block; }
+    h2 {  font-size: 30px; line-height: 35px; margin: 0 0 10px; }
+    h3 { font-size: 26px; line-height: 31px; }
+    .navbar-light .navbar-toggler:hover, .navbar-light .navbar-toggler:focus { outline: none;  }
+    .navbar-nav li { border-bottom: 1px solid rgb(0 0 0 / 8%); padding: 0; width: 100%; display: none;  }
+    .navbar-light .navbar-nav .nav-link { border-radius: 0; color: #111; font-size: 15px; padding: 10px 15px; text-align: right;  }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link { color: #000; }
+    .navbar-nav li.nav-itemBtn { padding: 0; margin: 0; display: block; border: 0; width: unset; }
+    .navbar-nav li .btn.nav-link {  color: #fff; padding: 0; border: none; margin-right: 50px; display: flex; align-items: center; height: 26px; font-size: 18px; line-height: 26px; }
+    .fixed_header .navbar-nav li .btn.nav-link { color: #000000; }
+    .fixed_header .desk_logo1 { display: none; }
+    .fixed_header .desk_logo2 { display: block; }
+    .user_profile { margin-right: 50px; }
+    header .dropdown-item { text-align: left;  padding: 10px 15px; }
+    header .dropdown-menu:before {  display: none; }
+    .navbar-collapse {  margin: 0;  flex-basis: unset; flex-grow: unset; }
+    header .dropdown-toggle::after { right: 0; }
+    header .dropdown-menu { padding: 0; }
+    .bannerAreaInner { text-align: left;  } 
+    .users .form-group.formBtn { margin: 30px 0 20px;  }
+    .logInArea a.logo img { width: 180px;  }
+    .footerInner { min-height: 130px; }
+    .bannerForm .form-control { height: 50px; }
+    .passEco_dropBox { top: 60px; }
+    .passEco_dropBox:before { right: 160px;  }
+    .bannerBtn .btn { font-size: 15px;line-height: 26px; padding: 12px; height: 50px; }
+    .newsLeft { display: none; }
+    .news_1 { width: 100%; }
+    .bannerFromTo { width: 50%; border-bottom: 1px solid #ddd; }
+    .bannerBtn { width: 100%; }
+    .bannerArea { padding: 30px 0 80px; }
+    .bannerAreaInner h1 {font-size: 56px;line-height: 75px; }
+    .bannerAreaInner h1:before { width: 230px; height: 78px; }
+    .bannerAreaInner > p { font-size: 28px; line-height: 37px; }
+    .index_sec1 { padding: 20px 0; }
+    .index_sec1 ul { gap: 15px; }
+    .index_sec1 ul li img { height: 40px; }
+    .index_sec2, .index_sec4, .greatTravelMain { padding: 40px 0; }
+    .index_sec1 ul li p { font-size: 15px; line-height: 20px;  }
+    .index_sec21 { flex-direction: column; gap: 20px; }
+    .index_sec211, .index_sec212 { width: 100%; }
+    .index_sec22 { margin-top: 30px;  }
+    .index_sec22 ul { gap: 30px;  }
+    .index_sec22 ul li { width: calc(50% - 15px);  }
+    .index_sec3 { flex-direction: column-reverse;  padding: 30px; gap: 30px; }
+    .index_sec32 p { font-size: 17px;  line-height: 23px;  }
+    .index_sec32 { width: 100%; }
+    .index_sec31 { width: 100%; margin: 0; }
+    .index_sec31 ul li { width: 250px; }
+    .index_sec31 ul li img { height: 60px; margin-bottom: 40px; }
+    .index_sec42 ul li { width: calc(33.3% - 13.4px); }
+    .newsletterRight h2:before { right: -130px; bottom: 7px;  width: 270px;  height: 110px; }
+    .headingOther h2 { margin-bottom: 15px; }
+    .greatTravel_Outer { display: flex; flex-wrap: wrap; gap: 20px; }
+    .greatTravel_Inner { width: calc(50% - 10px); }
+    .footerInner p:last-of-type { margin-bottom: 0; }
+    .footerInner .siteDetails:first-of-type { border-bottom: 0;  }
+    .siteDetails { margin-right: 0; }
+    .footerRES { border-bottom: 1px solid #2e2e2e;  margin-bottom: 20px; }
+    .footerTop .footerRES:last-of-type {  border-bottom: 0; margin-bottom: 0; }
+    .footerInner { margin: 0; }
+    .siteDetails:last-child { margin-bottom: 20px;}
+    .logInLeft { width: calc(100% - 400px); }
+    .logInOuter {  width: 400px;}
+    .logIn h2 { font-size: 36px; line-height: 46px;  }
+    .profile_sec1 { padding: 40px 0; }
+    .profile_sidebar { width: 260px;  padding: 15px;}
+    .profile_content { width: calc(100% - 260px); }
+    .prof_div1 { padding: 10px; padding-bottom: 25px; gap: 15px;}
+    .prof_div1 > div:first-child { width: 60px; height: 60px; }
+    .prof_div1 span { font-size: 13px; line-height: 22px; }
+    .prof_div1 p { font-size: 15px; }
+    .prof_div2 ul li a { padding: 8px 20px; gap: 10px; }
+    .prof_div2 ul li span { font-size: 30px;}
+    .prof_div5, .prof_div61 { padding: 25px; }
+    .prof_div3 { margin-bottom: 20px; }
+    .prof_div3 h3 {  font-size: 24px; line-height: 34px; }
+    .prof_div4 { width: 140px; height: 140px; margin-bottom: 25px; }
+    .prof_div61 h4 {  font-size: 20px;  line-height: 24px; margin-bottom: 20px; }
+    .prof_div61 .form_btn { margin-top: 25px; }
+    .footerTop { padding: 50px 0 0; }
+    .error_sec2 { max-width: 500px; margin: 0 auto; }
+    .error_sec2 img { width: 500px; }
+    .dateInner span i { top: 5px;}
+
+    .flightRightDataInner ul li:nth-child(3) { width: calc(35% - 16px); }
+    .priceRadio .radioCustom { padding: 6px 10px; }
+    .baggage span { float: none;  margin: 10px 0 0; position: unset; display: block; text-align: center; }
+    .priceRadioData ul li.priceListing { font-size: 15px;  line-height: 20px; }
+    .flightRightDataHead h4 span { float: none; display: block; }
+    .filterLeftInner .checkCustom { font-size: 13px; line-height: 18px; }
+    .flightRight .accordion-button { font-size: 14px; line-height: 19px; }
+    .flightRightDataInner ul li h5 { font-size: 18px; line-height: 25px; }
+    .flightRightDataInner { overflow: auto; overflow-x: scroll; white-space: nowrap; }
+    .flightRightDataInner ul { min-width: 750px; width: 100%; }
+    .accordionBodyContent { overflow: auto; overflow-x: scroll; white-space: nowrap; }
+    .accContentInner { width: 550px; display: block; }
+    .accordionBodyContent::-webkit-scrollbar { height: 3px;}
+    .accordionBodyContent::-webkit-scrollbar-track { background: transparent;}
+    .accordionBodyContent::-webkit-scrollbar-thumb { background: rgb(0 0 0 / 22%); border-radius: 0;}
+    .accordionBodyContent::-webkit-scrollbar-thumb:hover { background: #dddddd;}
+}
+
+
+
+@media (max-width: 883px) {
+    .users {  padding: 40px 30px; padding-bottom: 70px;}
+}
+
+@media (max-width: 767px) {
+    .logIn h2 {  font-size: 35px; line-height: 46px; }
+    .headingOther p {  font-size: 16px; line-height: 21px; }
+    h2 { font-size: 28px; line-height: 35px;margin: 0 0 10px 0; }
+    h3 { font-size: 24px; line-height: 29px;}
+    .newsletterRight {  padding: 60px 0; }
+    .newsletterRight p {  margin-bottom: 30px; }
+    .bannerAreaInner h1 {  font-size: 54px; line-height: 72px; }
+    .bannerAreaInner h1:before {  width: 220px; height: 72px; }
+    .bannerAreaInner > p { font-size: 26px; line-height: 35px;  }
+    .bannerArea { padding: 10px 0 60px; }
+    .index_sec1 ul { gap: 20px; flex-wrap: wrap; }
+    .index_sec1 ul li { width: calc(50% - 10px); border: 1px solid #dddddd; padding: 15px; border-radius: 3px;  }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 34px; line-height: 44px; }
+    .index_sec211 h2 span:before { width: 210px; height: 13px; }
+    .index_sec2, .index_sec4, .greatTravelMain { padding-top: 30px; padding-bottom: 35px; }
+    .index_sec21 { gap: 15px; }
+    .index_sec22 {  margin-top: 20px;  }
+    .index_sec22 ul {  gap: 20px;  }
+    .index_sec22 ul li { width: calc(50% - 10px);  }
+    .index_sec3 {  gap: 20px; }
+    .index_sec31 ul li p {  font-size: 17px; line-height: 23px; }
+    .index_sec31 ul li p span { font-size: 16px; }
+    .index_sec31 ul li img {  height: 50px; margin-bottom: 30px; }
+    .index_sec31 ul li { width: 212px; }
+    .index_sec41 ul {  gap: 15px; flex-wrap: wrap; margin-top: 20px; }
+    .index_sec41 ul li { padding: 8px 10px; }
+    .index_sec41 { padding-bottom: 20px; margin-bottom: 20px; }
+    .index_sec42 ul li { width: calc(50% - 10px); }
+    .headingOther h2:before { width: 200px; }
+    .headingOther { margin-bottom: 20px; }
+    .newsletterRight h2 {  font-size: 32px; line-height: 42px; }
+    .socialIcon { margin: 0 0 20px; }
+    .logInOuter { width: 350px; }
+    .users .otp .form-control {   width: 36px; height: 36px; }
+    .users { padding: 40px 20px; padding-bottom: 70px;}
+    .dateInner { width: 50%; border-bottom: 1px solid #dddddd;}
+    .bannerFormInner { width: 100%;  }
+    .bannerForm .form-control { height: 45px; }
+    .bannerBtn .btn { line-height: 20px; height: 45px; }
+    .passEco_dropBox { top: 55px; right: -20px; width: 550px; padding: 15px; }
+    .drop_box1 p, .passEco_drop2 ul li { font-size: 14px; }
+    .passEco_dropBox > div { gap: 14px; }
+    .passEco_drop1, .passEco_drop2 { width: calc(50% - 7px); }
+    .passEco_dropBox:before { right: calc(50% - 7px); }
+    .logInLeft { width: calc(100% - 350px); }
+    .profile_sec2 { flex-direction: column; }
+    .prof_div1 { padding: 10px; padding-bottom: 30px; }
+    .profile_sidebar {  width: 100%;  padding: 20px;  border-right: 0;  border-bottom: 1px solid #f2f2f2; box-shadow: 0 1px 2px #f2f2f2; }
+    .profile_content { width: 100%; }
+    .prof_div5, .prof_div61 {  padding: 20px; }
+    .prof_div3 h3 { font-size: 22px; line-height: 32px; }
+    .secondPartForm .form-group { width: 100%; }
+    .priceRadio .radioCustom {  width: 100%; }
+    .filterLeft { border: 1px solid #ddd; }
+    .filterLeftInner { padding: 20px 15px; }
+    .priceRadio .radioCustom:first-child .checkmark { border-right: 1px solid #E2E2E2; }
+}
+
+@media (max-width: 575px) {
+    .desk_logo1 { display: none; }
+    .navbar-brand>img.mobile_logo { display: block; width: 45px; }
+    .fixed_header .desk_logo2 { display: none; }
+    .profile_header .desk_logo2 { display: none; }
+    .users .form-group { margin: 0 0 20px;}
+    .headingOther { margin: 0 0 15px; }
+    .logIn h2 { font-size: 32px; line-height: 40px; }
+    .footerTop { padding: 30px 0 0; }
+    .footerInner { min-height: auto; }
+    .greatTravel_Inner { width: 100%; }
+    .newsletterRight h2:before { right: -97px; bottom: 0;width: 200px;height: 100px;  }
+    .newsletterRight p { margin: 0 0 25px; }
+    .bannerAreaInner h1 { font-size: 46px; line-height: 62px;}
+    .bannerAreaInner h1:before { width: 200px; height: 67px; }
+    .bannerAreaInner > p { font-size: 24px; line-height: 32px;}
+    .bannerArea { padding: 10px 0 40px;}
+    .dateInner { width: 50%;border-bottom: 1px solid #dddddd; }
+    .bannerFormInner { width: 100%; border-bottom: 1px solid #dddddd; }
+    .index_sec22 ul li { width: 100%; }
+    .dateInner input { text-align: left; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 32px; line-height: 40px; }
+    .index_sec211 h2 span:before { width: 195px; height: 12px; }
+    .index_sec21 {  gap: 10px; }
+    .index_sec2, .index_sec4, .greatTravelMain { padding-top: 25px; padding-bottom: 30px;  }
+    .index_sec212 p, .newsletterRight p, .headingOther p, .index_sec41 p { font-size: 15px; line-height: 22px; }
+    .index_sec22 { margin-top: 15px; }
+    .index_sec22 ul li .img_box { height: 200px; }
+    .index_sec3 { padding: 20px 15px 25px; }
+    .index_sec32 h2 {  margin-bottom: 10px; }
+    .index_sec32 p { font-size: 16px; line-height: 22px;  }
+    .index_sec31 ul li p span { font-size: 15px;  }
+    .index_sec31 ul li p { font-size: 16px; line-height: 22px;  }
+    .index_sec31 ul li { width: 190px; padding: 10px;  }
+    .index_sec31 ul li img {  height: 45px; margin-bottom: 20px;  }
+    .newsletterRight h2 { font-size: 30px; line-height: 40px; }
+    .newsletterRight { padding: 50px 0;  }
+    .headingOther h2:before { width: 190px; bottom: -7px; }
+    .headingOther h2 { margin-bottom: 12px; }
+    .index_sec1 ul li  {  padding: 15px 10px;  }
+    .index_sec1 ul { gap: 15px; }
+    .index_sec1 ul li p { font-size: 14px; line-height: 18px; }
+    .passEco_dropBox { right: calc(50% - 175px); width: 350px; }
+    .passEco_dropBox > div { gap: 20px; flex-direction: column; }
+    .passEco_drop1, .passEco_drop2 { width: 100%;  }
+    .drop_box .drop_box1 { margin-bottom: 10px; }
+    .logInArea .alert { width: 420px; padding: 14px 15px;  height: unset;  }
+    .logInArea .alert .btn-close { padding: 14px 15px;  }
+    .logInArea { flex-direction: column; align-items: center; }
+    .logInArea a.logo img { width: 200px; }
+    .logInLeft {  width: 100%;  height: 250px; min-height: unset; }
+    .logInLeft img { object-position: top; height: 100%; min-height: unset; }
+    .logInOuter { width: 100%; flex-direction: column-reverse; align-items: center; }
+    .users { padding: 25px 20px; max-width: 400px; }
+    .logBottom { position: unset; display: none; }
+    .users .form-group.links { margin-bottom: 0; }
+    .profile_sec1:before { height: 150px; }
+    .prof_div1 { padding: 0; padding-bottom: 20px; }
+    .profile_sec1 { padding: 15px 0; }
+    .error_sec1 { padding: 30px 0;  }
+    .error_sec2 img { width: 350px; }
+    .error_sec2 h3 { font-size: 24px; line-height: 28px; margin: 15px 0;}
+    .flightSummaryInner ul li:first-child { width: 100%; }
+    .flightSummaryInner ul li:nth-child(2) { width: 100%; }
+    .flightSummaryInner ul li:nth-child(3) { width: 100%; padding-left: 0; }
+    .flightSummaryInner ul li:nth-child(4) { width: 100%; }
+    .flightSummaryInner ul li:nth-child(5) { width: 100%; padding-left: 0;}
+    .flightsummaryHead h4 span { float: none; position: unset; margin: 8px 0 0; display: inline-block;}
+    .modalCustom .modal-dialog { min-width: 90%; position: relative; left: auto; top: auto; transform: unset !important; }
+    .modalCustom .modal-body { padding: 30px 20px; }
+}
+
+@media (max-width: 480px) {
+    .logIn h2 { font-size: 28px;line-height: 37px; margin-bottom: 10px;  }
+    .bannerAreaInner h1 { font-size: 42px; line-height: 55px; }
+    .bannerAreaInner h1:before { width: 175px; height: 60px; }
+    .bannerAreaInner > p { font-size: 22px; line-height: 30px; margin-bottom: 15px; }
+    .bannerRadio .radioCustom { margin-bottom: 4px; }
+    .bannerArea { padding: 0 0 30px; }
+    .navbar-light .navbar-toggler { padding: 2px 5px; }
+    .newsletterRight h2:before { display: none; }
+    .newsletterRight { padding-top: 28px; padding-bottom: 40px;  }
+    .newsletterRight p { margin: 0 0 20px; }
+    .footerTop h3 { margin: 0 0 10px; }
+    .siteDetails:last-child {  margin-bottom: 15px; }
+    .footerRES { margin-bottom: 15px;  }
+    .footerInner ul { margin: 0 0 5px;  }
+    .socialIcon { margin: 0 0 10px;  }
+    .logoFooter { margin: 0 0 20px; }
+    .siteDetails { margin-bottom: 15px; }
+    .index_sec211 h2 span:before {  height: 10px; }
+    header .navbar {  min-height: unset; }
+    .navbar-brand>img {  width: 45px; }
+    header.profile_header { padding: 0 0 67px 0; }
+    .navbar-nav li .btn.nav-link { margin-right: 45px; }
+    .b-menu { width: 28px; right: 16px; }
+    .user_profile { margin-right: 45px;}
+    .b-bun--bottom, .b-bun--mid, .b-bun--top {  width: 28px; }
+    .b-bun--mid { top: 6px; }
+    .b-bun--bottom { top: 12px;  }
+    .b-nav.open {  padding-top: 50px;  }
+    .mobile_logo { display: block; }
+    .desk_logo1, .profile_header .desk_logo2 {  display: none;  }
+    .copyInner p {  font-size: 12px;  }
+    .copy {  padding: 15px 0; }
+    .passEco_drop1 h4, .passEco_drop2 h4 { font-size: 15px; line-height: 18px;}
+    .apply_filters a { font-size: 14px; }
+    .users { max-width: 100%; width: 100%; }
+    .users .form-control { height: 45px; }
+    .users .btn { height: 45px; font-size: 15px; line-height: 45px; }
+    .users .form-group.formBtn { margin: 25px 0 20px; }
+    .logIn { margin: 0 0 25px; }
+    header, header.profile_header .profile_header2 { padding: 12px 15px; }
+    .error_sec2 img {  width: 300px; }
+}
+@media (max-width: 450px) {
+    .index_sec1 ul li { width: 100%; flex-direction: row; align-items: center; padding: 10px;  }
+    .index_sec1 ul li img { height: 30px; }
+    .index_sec1 ul {  gap: 10px;}
+    .index_sec1 ul li p {  font-size: 15px;  line-height: 20px; }
+    .bannerAreaInner h1 {  font-size: 40px;  line-height: 52px; }
+    .bannerAreaInner h1:before {  width: 168px; height: 54px; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 {  font-size: 28px;  line-height: 36px; }
+    .index_sec211 h2 span:before {  width: 170px; }
+    .content_box h3 { font-size: 17px; line-height: 23px; }
+    .index_sec22 ul li .img_box { height: 180px; }
+    .index_sec41 h2 { margin-bottom: 8px; }
+    .index_sec41 ul { margin-top: 15px; }
+    .index_sec41 { padding-bottom: 15px; margin-bottom: 15px; }
+    .newsletterRight h2 { font-size: 26px; line-height: 34px;}
+    .newsletterRight {  padding-top: 20px;  padding-bottom: 30px; }
+    .newsletterRight .form-control, .newsletterRight button { height: 45px; font-size: 14px; line-height: 18px;}
+    .headingOther h2:before {  width: 160px; bottom: -5px; }
+    .headingOther { margin: 0 0 12px; }
+    .greatTravel_Outer { gap: 15px;}
+    .logInArea .alert {  width: calc(100% - 30px); padding-right: 40px; }
+    .profile_sidebar { padding: 15px; }
+    .prof_div1 { padding-bottom: 15px;}
+    .prof_div2 ul li a { padding: 6px 15px; }
+    .prof_div2 ul li span { font-size: 28px; top: 0; }
+    .prof_div2 ul li:first-child span { font-size: 30px; width: 28px; height: 28px; top: -1px; }
+    .prof_div2 ul li p { font-size: 15px; }
+    .prof_div5, .prof_div61 { padding: 15px; }
+    .prof_div3 h3 { font-size: 20px; line-height: 28px; }
+    .prof_div3 { margin-bottom: 15px; }
+    .prof_div4 { width: 120px; height: 110px; margin-bottom: 20px; }
+    .upload_files > img { width: 34px; }
+    .form_group label {  font-size: 15px;  line-height: 20px; }
+    .form_group input {  font-size: 15px;  line-height: 20px;  padding: 11px 15px; }
+    .prof_div61 h4 { font-size: 18px; margin-bottom: 15px; }
+    .form_group { margin-bottom: 20px; }
+    .form_btn a { font-size: 15px; line-height: 20px; padding: 9px 20px; min-width: 90px; }
+}
+@media (max-width: 400px) {
+    .b-nav, .b-nav.open { width: 270px; }
+    .footerTop h3 { font-size: 15px; line-height: 22px; }
+    .footerInner ul li a { font-size: 13px; }
+    .footerInner p , .addressFooter ul li p { font-size: 13px; line-height: 20px; }
+    .passEco_dropBox { right: calc(50% - 150px); width: 300px;}
+    .error_sec2 img { width: 250px; }
+    .error_sec2 h3 { font-size: 22px; line-height: 26px; }
+    .error_sec2 p { font-size: 15px; }
+    .modalCustom .modal-dialog { min-width: 98%; }
+}
+@media (max-width: 360px) {
+    .bannerAreaInner h1 { font-size: 36px; line-height: 46px; }
+    .bannerAreaInner h1:before { width: 143px; height: 48px; left: -10px; }
+    .bannerAreaInner > p { font-size: 20px;line-height: 25px; font-weight: 500; }
+    .index_sec1 ul li p { font-size: 14px;  line-height: 18px; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 26px; line-height: 32px; }
+    .index_sec42 ul li {  width: 100%; }
+    .index_sec41 ul { gap: 10px; }
+    .index_sec41 ul li { padding: 6px 8px; }
+    .b-bun--bottom, .b-bun--mid, .b-bun--top { width: 26px; }
+    .b-menu { width: 26px;}
+    .navbar-nav li .btn.nav-link { margin-right: 40px; }
+    .users { padding: 20px 15px; }
+    .logInArea a.logo img {  width: 170px; }
+    .logInLeft { height: 200px; }
+    .logIn h2 { font-size: 26px; line-height: 32px; }
+    .logIn { margin: 0 0 20px; }
+    .users .form-control { height: 40px;  }
+    .users .btn { height: 40px; font-size: 14px; line-height: 40px; }
+}
+@media (max-width: 340px) {
+    .bannerAreaInner h1 { font-size: 34px; line-height: 44px; }
+    .bannerFromTo { width: 100%; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 24px; line-height: 30px; }
+    .index_sec212 p, .newsletterRight p, .headingOther p, .index_sec41 p {  font-size: 14px; line-height: 20px; }
+    .index_sec22 ul li .img_box { height: 150px; }
+    .index_sec41 ul li p { font-size: 13px; }
+    .index_sec41 ul li { padding: 5px 6px; }
+    .newsletterRight h2 { font-size: 24px; line-height: 32px; }
+    .index_sec211 h2 span:before { width: 145px; }
+    .index_sec32 p { font-size: 15px; line-height: 20px; }
+    .headingOther h2:before { width: 140px;  bottom: -10px; }
+    .passEco_dropBox { right: calc(50% - 143px); width: 286px; }
+    .passEco_dropBox > div { gap: 15px;  }
+    .form_group label, .form_group input, .varify_em { font-size: 14px;  }
+}

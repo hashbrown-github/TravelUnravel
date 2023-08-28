@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2560" height="489" viewBox="0 0 2560 489">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="2560" height="489" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#432f2f" stop-opacity="0.102"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Footer-BG" clip-path="url(#clip-path)">
+    <g>
+      <rect id="Rectangle_Copy_3" data-name="Rectangle Copy 3" width="160" height="489" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_Copy_4" data-name="Rectangle Copy 4" width="160" height="489" transform="translate(320)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_Copy_5" data-name="Rectangle Copy 5" width="160" height="489" transform="translate(640)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_Copy_6" data-name="Rectangle Copy 6" width="160" height="489" transform="translate(960)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_Copy_7" data-name="Rectangle Copy 7" width="160" height="489" transform="translate(1280)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="translate(1597)">
+      <rect id="Rectangle_Copy_3-2" data-name="Rectangle Copy 3" width="160" height="489" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_Copy_4-2" data-name="Rectangle Copy 4" width="160" height="489" transform="translate(320)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_Copy_5-2" data-name="Rectangle Copy 5" width="160" height="489" transform="translate(640)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_Copy_6-2" data-name="Rectangle Copy 6" width="160" height="489" transform="translate(960)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_Copy_7-2" data-name="Rectangle Copy 7" width="160" height="489" transform="translate(1280)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="Insta" transform="translate(-726 -4735)">
+    <path id="instagram-icon" d="M15.78.9H6.423A5.529,5.529,0,0,0,.9,6.423V15.78A5.529,5.529,0,0,0,6.423,21.3H15.78A5.529,5.529,0,0,0,21.3,15.78V6.423A5.529,5.529,0,0,0,15.78.9ZM11.1,16.68A5.578,5.578,0,1,1,16.68,11.1,5.578,5.578,0,0,1,11.1,16.68Zm5.712-9.841a1.648,1.648,0,1,1,1.649-1.648,1.648,1.648,0,0,1-1.649,1.648Z" transform="translate(732.543 4740.551)" fill="#fff"/>
+    <g id="Rectangle_135" data-name="Rectangle 135" transform="translate(726 4735)" fill="none" stroke="#fff" stroke-width="1">
+      <rect width="35" height="35" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="34" height="34" rx="1.5" fill="none"/>
+    </g>
+  </g>
+</svg>

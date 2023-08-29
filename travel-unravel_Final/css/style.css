@@ -1149,7 +1149,7 @@ padding: 8px 12px !important; background: #fff; font-family: 'Poppins-Regular'; 
 .aboutPageLeft h4 { font-family: 'Poppins-Medium'; font-size: 18px; line-height: 25px; color: #000; margin: 0 0 15px; }
 .aboutPageLeft { position: relative; margin: 0 0 30px; }
 .aboutPageLeft .headingOther { margin: 0 0 20px; }
-.aboutPageLeft p { color: #000; font-size: 16px; line-height: 22px; margin: 0 0 30px; }
+.aboutPageLeft p { color: #000; font-size: 16px; line-height: 22px; margin: 0 0 30px; font-family: 'Poppins-Light';}
 .aboutPageLeft ul { margin: 0 0 20px; padding-left: 35px; display: inline-block; width: 100%;}
 .aboutPageLeft ul li { list-style: none; margin: 0 0 20px; position: relative; font-size: 16px; line-height: 22px; }
 .aboutPageLeft ul li::before { color: #fff; left: -30px; position: absolute; top: 11px; background: #000; width: 20px; height: 1px; line-height: 24px; text-align: center; content: "";}
@@ -1167,7 +1167,7 @@ padding: 8px 12px !important; background: #fff; font-family: 'Poppins-Regular'; 
 .missionInner  h2 {  color: #000;  font-size: 42px; line-height: 56px; margin-bottom: 20px; font-family: 'DMSans-Bold';
 -webkit-font-smoothing: antialiased; position: relative; z-index: 1;}
 .missionInner h4 { font-family: 'Poppins-Medium'; font-size: 18px; line-height: 25px; color: #000; margin: 0 0 15px; }
-.missionInner p { margin: 0 0 30px; font-size: 16px; line-height: 22px; }
+.missionInner p { margin: 0 0 30px; font-size: 16px; line-height: 22px; font-family: 'Poppins-Light'; }
 /* END missionMain */
 
 
@@ -1177,5 +1177,5 @@ box-shadow: 3px 15px 70px 0 rgb(0 0 0 / 20%);  width: 100%;  padding: 0; positio
 .staticsOuter { display: flex; flex-wrap: wrap; gap: 0; }
 .staticsInner { margin: 0; position: relative; width: 25%; padding: 40px 45px 40px; }
 .staticsInner h4 { color: #000; margin: 0 0 10px; font-family: 'Poppins-Medium';}
-.staticsInner p { color: #8CC05E; font-size: 42px; line-height: 56px; margin: 0; font-family: 'Poppins-Regular'; }
+.staticsInner p { color: #8CC05E; font-size: 42px; line-height: 56px; margin: 0; font-family: 'Poppins-Light'; }
 /* END staticsMain */

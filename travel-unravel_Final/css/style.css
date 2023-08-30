@@ -28,15 +28,15 @@
 .headingOther h2:before { background: url('../images/sketchLine.svg') no-repeat; background-size: 100%; content: ""; position: absolute; left: 50%;
 bottom: 0; width: 270px; height: 17px; transform: translate(-50%, 0); z-index: -1; }
 .headingOther h2 span { color: #000; }
-.headingOther p { color: #000; font-size: 17px; line-height: 25px; margin-bottom: 0; font-family: 'Poppins-Light'; }
+.headingOther p { color: #000; font-size: 17px; line-height: 22.6px; margin-bottom: 0; font-family: 'Poppins-Light'; }
 .headingOtherLeft { text-align: left; }
 .textWhite { color: #fff !important; }
 .textCenter { text-align: center !important; }
-h2 { color: #000; font-size: 30px; line-height: 35px; }
-h3 { font-size: 26px; line-height: 31px; }
+h2 { color: #000; font-size: 30px; line-height: 40px; }
+h3 { font-size: 26px; line-height: 34.6px; }
 h4 { font-size: 18px; line-height: 23px; }
-p { font-size: 14px; line-height: 19px; color: #000; font-family: 'Poppins-Regular'; }
-body { background: #fff; color: #000; font-family: 'Poppins-Regular'; font-size: 14px; margin: 0; padding: 0; position: relative; }
+p { font-size: 14px; line-height: 18.6px; color: #000; font-family: 'Poppins-Regular'; }
+body { background: #fff; color: #000; font-family: 'Poppins-Regular'; font-size: 14px; line-height: 18.6px; margin: 0; padding: 0; position: relative; }
 ul { padding-left: 0; list-style: none; margin-bottom: 0; }
 a { color: #0d6efd; text-decoration: none; }
 a:hover, a:focus { text-decoration: none; }
@@ -52,10 +52,10 @@ a:hover, a:focus { text-decoration: none; }
 
 /* START BUTTON */
 .btnTheme { background: linear-gradient(180deg, #1aa9eb 0%, #0a91cf 100%); box-shadow: 0px 3px 6px rgb(0 0 0 / 16%); border: none; border-radius: 3px; color: #fff;
-font-size: 14px; line-height: 20px; padding: 10px 25px; text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
+font-size: 14px; line-height: 18.6px; padding: 10px 25px; text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
 .btnTheme:hover, .btnTheme:focus { background: linear-gradient(180deg, #1aa9eb 0%, #0a91cf 100%); box-shadow: 0px 3px 6px rgb(0 0 0 / 16%); border: none; color: #fff; }
 .btnGrey { background: linear-gradient(180deg, #f8f7f7 0%, #e8e8e8 100%); box-shadow: none; border: 1px solid #d8d8d8; border-radius: 3px; color: #000; 
-font-size: 14px; line-height: 20px; padding: 10px 25px; text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
+font-size: 14px; line-height: 18.6px; padding: 10px 25px; text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
 .btnGrey:hover, .btnGrey:focus { background: linear-gradient(180deg, #f8f7f7 0%, #e8e8e8 100%); box-shadow: none; border: 1px solid #d8d8d8; color: #000; }
 /* END BUTTON */
 
@@ -72,7 +72,7 @@ font-size: 14px; line-height: 20px; padding: 10px 25px; text-decoration: none; t
 
 
 /* START checkCustom */
-.checkCustom { display: block; position: relative; padding-left: 25px; cursor: pointer; color: #444; font-size: 14px; line-height: 19px; margin: 0 0 10px;
+.checkCustom { display: block; position: relative; padding-left: 25px; cursor: pointer; color: #444; font-size: 14px; line-height: 18.6px; margin: 0 0 10px;
 -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 .checkCustom input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
 .checkCustom .checkmark { position: absolute; top: 0; left: 0; height: 18px; width: 18px; background-color: #fff; border: 1px solid #eeeef0; }
@@ -87,7 +87,7 @@ font-size: 14px; line-height: 20px; padding: 10px 25px; text-decoration: none; t
 
 
 /* START radioCustom */
-.radioCustom { display: block; position: relative; padding-left: 25px; cursor: pointer; color: #444; font-size: 14px; line-height: 19px;
+.radioCustom { display: block; position: relative; padding-left: 25px; cursor: pointer; color: #444; font-size: 14px; line-height: 18.6px;
 margin: 0 0 20px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 .radioCustom input { position: absolute; opacity: 0; cursor: pointer; }
 .radioCustom .checkmark { position: absolute; top: 0; left: 0; height: 20px; width: 20px; background-color: #fff; border: 1px solid #eeeef0; border-radius: 50%; }
@@ -114,8 +114,8 @@ header { min-height: 80px; width: 100%; background: transparent; position: relat
 .navbar-nav li { padding: 0 30px; }
 .navbar-nav li:last-child { padding-right: 0; }
 .navbar-light .navbar-nav .nav-link { color: #fff; padding: 0; text-decoration: none; font-family: 'FuturaPT-Book-Regular';
--webkit-font-smoothing: antialiased; display: flex; align-items: center; font-size: 17px; line-height: 24px; }
-.navbar-light .navbar-nav .nav-link span { font-size: 21px; }
+-webkit-font-smoothing: antialiased; display: flex; align-items: center; font-size: 17px; line-height: 22.6px; }
+.navbar-light .navbar-nav .nav-link span { font-size: 20px; line-height: 26.6px; }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, 
 .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link { color: #fff; }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus { color: #83e127; }
@@ -126,7 +126,7 @@ header .navbar-nav .dropdown-menu { background-color: #fff; border: 1px solid rg
 top: calc(100% + 15px); left: 0; margin-top: 0; display: unset; visibility: hidden; opacity: 0; transition: all .3s; -webkit-transform: translateY(-10px); transform: translateY(-10px); }
 header .dropdown-menu.show { -webkit-transform: translateY(0); transform: translateY(0); visibility: visible; opacity: 1; }
 header .dropdown-toggle::after { position: relative; top: 2px; right: -2px; }
-header .dropdown-item { color: #000; border-bottom: 1px solid #eeeef0; padding: 9px 10px; font-size: 14px; transition: all 0.3s ease-in-out 0s; }
+header .dropdown-item { color: #000; border-bottom: 1px solid #eeeef0; padding: 9px 10px; font-size: 14px; line-height: 18.6px; transition: all 0.3s ease-in-out 0s; }
 header .dropdown-item:hover, header .dropdown-item:focus { background: #fbfbfd; color: #444; }
 header .dropdown-item:last-child { border: none; }
 header .dropdown-menu:before { background: #fff; display: block; transform: rotate(45deg); content: ""; position: absolute; left: 30px; top: -6px;
@@ -147,10 +147,10 @@ header .dropdown-toggle::after { display: none; }
 .greatTravelARea { position: relative; padding: 10px 10px 10px; border-bottom: 1px solid #d9d9d9; margin: 0; }
 .greatTravelARea:last-child { border-bottom: none; }
 .greatTravelARea h5 { background: #fff; margin: 0; display: inline-block; position: absolute; right: 10px; top: 10px; color: #70b32f; font-family: 'Poppins-Regular';
-font-size: 14px; line-height: 18px; border: 1px solid #70b32f; border-radius: 3px; padding: 3px 8px; }
-.greatTravelARea h4 { width: 100%; position: relative; font-family: 'Poppins-Medium'; font-size: 16px; line-height: 22px; color: #000; margin-bottom: 5px; }
+font-size: 14px; line-height: 18.6px; border: 1px solid #70b32f; border-radius: 3px; padding: 3px 8px; }
+.greatTravelARea h4 { width: 100%; position: relative; font-family: 'Poppins-Medium'; font-size: 16px; line-height: 21.3px; color: #000; margin-bottom: 5px; }
 .greatTravelARea ul { padding: 0; margin: 0; }
-.greatTravelARea ul li { list-style-type: none; font-family: 'Poppins-Light'; font-size: 14px; line-height: 18px; color: #000; margin-bottom: 3px; }
+.greatTravelARea ul li { list-style-type: none; font-family: 'Poppins-Light'; font-size: 14px; line-height: 18.6px; color: #000; margin-bottom: 3px; }
 .greatTravelARea ul li:last-child { margin-bottom: 0; }
 /* END greatTravelMain */
 
@@ -161,11 +161,11 @@ box-shadow: 3px 15px 70px 0 rgb(0 0 0 / 20%); width: 100%; padding: 0; position:
 .newsLeft { background: #000; width: 50%; position: absolute; top: 0; left: 0; height: 100%; display: flex; }
 .newsLeft img { width: 100%; object-fit: cover; object-position: left; }
 .news_1 { position: absolute; top: -5%; right: 0; width: 50%; height: 110%; opacity: 0.1; }
-.newsletterRight h2 { position: relative; color: #000; display: inline-block; font-size: 40px; line-height: 52px;
+.newsletterRight h2 { position: relative; color: #000; display: inline-block; font-size: 40px; line-height: 53.3px;
 font-family: 'DMSans-Bold'; margin-bottom: 10px; -webkit-font-smoothing: antialiased; }
 .newsletterRight h2:before { background: url('../images/plane_ilus.png') no-repeat; background-size: cover; background-position: center;
 content: ""; position: absolute; right: -167px; bottom: -7px; width: 350px; height: 180px; }
-.newsletterRight p { color: #000; font-family: 'Poppins-Light'; font-size: 17px; line-height: 25px; margin-bottom: 50px; }
+.newsletterRight p { color: #000; font-family: 'Poppins-Light'; font-size: 17px; line-height: 22.6px; margin-bottom: 50px; }
 .newsletterRight { padding: 150px 0 150px 20px; }
 .newsletterRight .form-group { position: relative; margin-bottom: 0; }
 .newsletterRight label.error { color: #e20000; font-size: 13px; position: absolute; left: 0; bottom: -22px; }
@@ -191,13 +191,13 @@ border: 1px solid #ddd; border-right: 0; font-family: 'Poppins-Light'; font-size
 .footerInner { display: inline-block; margin: 0 0 30px; width: 100%; }
 .footerInner p { color: #fff; font-size: 14px; line-height: 22px; font-family: 'Poppins-ExtraLight'; margin: 0 0 20px; width: 100%; }
 .footerInner ul { margin: 0 0 15px; padding: 0; }
-.footerInner ul li { display: inline-block; list-style-type: none; margin: 0 0 10px; width: 100%; font-size: 14px; line-height: 19px; }
-.footerInner ul li a { color: #fff; font-size: 14px; line-height: 19px; font-family: 'Poppins-ExtraLight'; display: inline-block; }
+.footerInner ul li { display: inline-block; list-style-type: none; margin: 0 0 10px; width: 100%; font-size: 14px; line-height: 18.6px; }
+.footerInner ul li a { color: #fff; font-size: 14px; line-height: 18.6px; font-family: 'Poppins-ExtraLight'; display: inline-block; }
 .footerInner ul li a:hover, .footerInner li a:focus { color: #fff; transition: 0.5s; }
 .addressFooter { margin: 0; }
 .addressFooter ul { width: 100%; }
-.addressFooter ul li { display: inline-block; font-size: 14px; line-height: 19px; list-style-type: none; margin: 0 0 10px; }
-.addressFooter ul li p { margin: 0; color: #fff; font-size: 14px; line-height: 19px; }
+.addressFooter ul li { display: inline-block; font-size: 14px; line-height: 18.6px; list-style-type: none; margin: 0 0 10px; }
+.addressFooter ul li p { margin: 0; color: #fff; font-size: 14px; line-height: 18.6px; }
 .copy { width: 100%; background: #0F1217; padding: 20px 0; border-top: 1px solid rgb(255 255 255 / 5%); }
 .copyInner { text-align: center; width: 100%; }
 .copyInner p { color: #fff; font-size: 14px; margin: 0; }
@@ -216,11 +216,11 @@ margin: 0 2px 0 0; position: relative; text-decoration: none; border-radius: 0; 
 .banner { background: #025460 url('../images/bannerBG.jpg') no-repeat; background-size: cover; background-position: center; position: relative; width: 100%; height: 684px; }
 .bannerArea { padding: 100px 0 150px; width: 100%; }
 .bannerAreaInner { width: 100%; text-align: center; }
-.bannerAreaInner h1 { color: #fff; font-size: 66px; line-height: 90px; position: relative; -webkit-font-smoothing: antialiased;
+.bannerAreaInner h1 { color: #fff; font-size: 66px; line-height: 88px; position: relative; -webkit-font-smoothing: antialiased;
 font-family: 'DMSans-Bold'; margin: 0 0 20px; display: inline-block; z-index: 1; }
 .bannerAreaInner h1:before { background: url('../images/brush.svg'); background-size: 100%; content: ""; position: absolute; left: -23px; top: 0; width: 270px; height: 88px; z-index: -1; }
 .bannerAreaInner h1 span { color: #d2bf8f; }
-.bannerAreaInner > p { color: #fff; font-size: 34px; line-height: 45px; margin: 0 0 60px; font-family: 'DMSans-Regular'; -webkit-font-smoothing: antialiased; }
+.bannerAreaInner > p { color: #fff; font-size: 34px; line-height: 45.3px; margin: 0 0 60px; font-family: 'DMSans-Regular'; -webkit-font-smoothing: antialiased; }
 .bannerRadio { text-align: left; }
 .bannerRadio .form-group { margin-bottom: 10px; position: relative; }
 .bannerRadio .radioCustom { color: #fff; display: inline-block; margin: 0 10px 10px 0; vertical-align: middle; }
@@ -228,10 +228,10 @@ font-family: 'DMSans-Bold'; margin: 0 0 20px; display: inline-block; z-index: 1;
 .bannerRadio .radioCustom .checkmark:after { top: 2px; left: 2px; width: 9px; height: 9px; border-radius: 50%; background: #fff; }
 .bannerRadio .radioCustom input:checked~.checkmark { background-color: transparent; }
 .bannerForm { display: flex; gap: 0; flex-wrap: wrap; justify-content: left; border-radius: 3px; }
-.bannerFormInner { position: relative; width: 28%; margin-bottom: 25px; }
+.bannerFormInner { position: relative; width: 28%; margin-bottom: 35px; }
 
 
-.bannerForm .form-group { margin-bottom: 25px; position: relative; }
+.bannerForm .form-group { margin-bottom: 35px; position: relative; }
 .bannerForm .form-control { background-color: #fff; border: 0; border-right: 1px solid #ddd; border-radius: 0; box-shadow: none; color: #000;
 font-family: 'Poppins-Light'; font-size: 15px; padding: 10px 12px; transition: all 0.4s; height: 60px; }
 .bannerForm select { -webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: url('../images/bottom-arrow.svg') !important;
@@ -261,9 +261,9 @@ position: absolute; background: #fff; z-index: 999; font-size: 20px; right: 10px
 .bannerFromTo .input-group-text .material-symbols-outlined.close.location_on:before { content: "\e0c8"; font-family: 'Material Symbols Outlined'; font-weight: 400;
 position: absolute; background: #fff; z-index: 999; font-size: 20px; right: 10px; }
 
-.bannerForm .error { font-size: 13px; color: #ff3d3d; position: absolute; left: 0; bottom: -21px; font-family: 'Poppins-Medium'; text-align: left; min-width: 250px; }
-.dateInner .error { bottom: -20px; min-width: 250px; }
-.bannerFormAll:last-child .bannerForm .error { bottom: -21px; min-width: 250px; }
+.bannerForm .error {font-size: 13px;color: #fff;position: absolute;left: 0;bottom: -30px;font-family: 'Poppins-Medium';text-align: left;min-width: 270px;background: #d4121d;padding: 3px 10px;border-radius: 2px;}
+.dateInner .error { bottom: -30px; min-width: 270px; }
+.bannerFormAll:last-child .bannerForm .error { bottom: -30px; min-width: 300px; }
 
 
 .datepicker { padding: 4px; width: 250px; }
@@ -281,10 +281,10 @@ font-family: 'Poppins-Light'; font-size: 15px; padding: 10px 12px; transition: a
 .passEco_dropdown > a span:first-child { position: relative; width: 125px; text-align: left; }
 .passEco_dropdown > a span:first-child:before { content: ""; background: url(../images/bottom-arrow.svg); background-size: 100% 100%; position: absolute;
 right: 0px; top: 50%; transform: translate(0, -50%); width: 14px; height: 10px; }
-.bannerFormInner_3 { width: 25%; margin-bottom: 25px; }
+.bannerFormInner_3 { width: 25%; margin-bottom: 35px; }
 .bannerForm .bannerFromTo:first-child .form-control { border-radius: 2px 0 0 2px; }
 .bannerForm .departure .form-control { border-radius: 2px 0 0 2px; }
-.bannerFormAll:last-child .bannerForm .form-group { margin-bottom: 25px; }
+.bannerFormAll:last-child .bannerForm .form-group { margin-bottom: 35px; }
 .tooltip-inner { background: #fff; color: #000; border: 1px solid #000; font-size: 12px; line-height: 16px; width: 100%; text-align: left; }
 .tooltip.bs-tooltip-right .arrow:before, .tooltip.bs-tooltip-left .arrow:before, .tooltip.bs-tooltip-bottom .arrow:before, .tooltip.bs-tooltip-top .arrow:before { display: none !important; }
 .tooltip .tooltip-arrow { display: none; }
@@ -385,7 +385,7 @@ right: 0px; top: 50%; transform: translate(0, -50%); width: 14px; height: 10px; 
 .drop_box1 p {
     color: #000;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 18.6px;
     font-family: 'Poppins-Medium';
     margin: 0;
     text-align: left;
@@ -410,7 +410,7 @@ right: 0px; top: 50%; transform: translate(0, -50%); width: 14px; height: 10px; 
     color: #000;
     font-family: 'Poppins-Regular';
     font-size: 14px;
-    line-height: 19px;
+    line-height: 18.6px;
     flex-shrink: 0;
     padding: 0;
 }
@@ -504,7 +504,7 @@ right: 0px; top: 50%; transform: translate(0, -50%); width: 14px; height: 10px; 
 .index_sec211 h2 span { position: relative; display: block; }
 .index_sec211 h2 span:before { background: url('../images/sketchLine.svg') no-repeat; background-size: 100%; content: "";
 position: absolute; left: 0px; bottom: 2px; width: 256px; height: 19px; z-index: -1; }
-.index_sec212 p { color: #000; font-size: 17px; line-height: 25px; margin-bottom: 0; font-family: 'Poppins-Light'; margin-top: 10px; }
+.index_sec212 p { color: #000; font-size: 17px; line-height: 22.6px; margin-bottom: 0; font-family: 'Poppins-Light'; margin-top: 10px; }
 .index_sec22 { width: 100%; margin-top: 60px; }
 .index_sec22 ul { display: flex; gap: 30px; width: 100%; flex-wrap: wrap; }
 .index_sec22 ul li { width: calc(25% - 22.5px); border: 1px solid #e3e3e3; background: #fcfcfd; border-radius: 5px; overflow: hidden; }
@@ -514,11 +514,11 @@ position: absolute; left: 0px; bottom: 2px; width: 256px; height: 19px; z-index:
 .content_box { width: 100%; }
 .content_box > div { width: 100%; padding: 10px; display: flex; justify-content: space-between; align-items: center; }
 .content_box > div:first-child { border-bottom: 1px solid #e3e3e3; }
-.content_box h3 { font-family: 'Poppins-Medium'; font-size: 18px; line-height: 25px; color: #000; margin: 0; }
+.content_box h3 { font-family: 'Poppins-Medium'; font-size: 18px; line-height: 24px; color: #000; margin: 0; }
 .content_box > div:first-child span { color: #0a91cf; font-family: 'Poppins-Regular';
-font-size: 14px; line-height: 18px; border: 1px solid #0a91cf; border-radius: 3px; padding: 3px 8px; }
-.content_box p { font-family: 'Poppins-Light'; font-size: 14px; line-height: 18px; color: #000; margin-bottom: 0; }
-.content_box p i { color: #FFD166; font-size: 15px; margin-right: 3px; }
+font-size: 14px; line-height: 18.6px; border: 1px solid #0a91cf; border-radius: 3px; padding: 3px 8px; }
+.content_box p { font-family: 'Poppins-Light'; font-size: 14px; line-height: 18.6px; color: #000; margin-bottom: 0; }
+.content_box p i { color: #FFD166; font-size: 15px; line-height: 20px; margin-right: 3px; }
 .content_box p img { width: 16px; margin-right: 1px; vertical-align: middle; }
 .content_box p span { font-family: 'Poppins-SemiBold'; color: #000; vertical-align: middle; margin: 3px 0 0; display: inline-block; }
 /* END index_sec2 */
@@ -536,11 +536,11 @@ font-size: 14px; line-height: 18px; border: 1px solid #0a91cf; border-radius: 3p
 transition: all 0.2s; transform: scale(0.98); will-change: transform; user-select: none; cursor: pointer; }
 .index_sec31 ul li { width: 280px; flex-shrink: 0; background: #fff; padding: 20px; border-radius: 3px; }
 .index_sec31 ul li img { height: 80px; width: auto; margin-bottom: 50px; }
-.index_sec31 ul li p { font-family: 'Poppins-SemiBold'; font-size: 22px; line-height: 28px; color: #000; margin-bottom: 0; }
+.index_sec31 ul li p { font-family: 'Poppins-SemiBold'; font-size: 22px; line-height: 29.3px; color: #000; margin-bottom: 0; }
 .index_sec31 ul li p span { font-family: 'Poppins-Light'; font-size: 18px; display: block; }
 .index_sec32 { width: 50%; }
-.index_sec32 h2 { color: #fff; font-size: 42px; line-height: 54px; font-family: 'DMSans-Bold'; -webkit-font-smoothing: antialiased; margin-bottom: 15px; }
-.index_sec32 p { font-family: 'Poppins-Regular'; -webkit-font-smoothing: antialiased; font-size: 22px; line-height: 28px; color: #fff; margin-bottom: 0; }
+.index_sec32 h2 { color: #fff; font-size: 42px; line-height: 56px; font-family: 'DMSans-Bold'; -webkit-font-smoothing: antialiased; margin-bottom: 15px; }
+.index_sec32 p { font-family: 'Poppins-Regular'; -webkit-font-smoothing: antialiased; font-size: 22px; line-height: 29.3px; color: #fff; margin-bottom: 0; }
 .index_sec32 a { color: #fff; display: block; text-decoration: underline; }
 /* END index_sec3 */
 
@@ -555,14 +555,14 @@ transition: all 0.2s; transform: scale(0.98); will-change: transform; user-selec
 .index_sec41 ul li { padding: 10px 15px; border-radius: 3px; border: 1px solid #0a91cf; background: #f9f9f9; box-shadow: 0 1px 3px rgb(0 0 0 / 11%); }
 .index_sec41 ul li.active { background: linear-gradient(180deg, #1aa9eb 0%, #0a91cf 100%); }
 .index_sec41 ul li.active p { color: #fff; }
-.index_sec41 ul li p { font-size: 15px; }
+.index_sec41 ul li p { font-size: 15px; line-height: 20px;}
 .index_sec42 { width: 100%; }
 .index_sec42 ul { width: 100%; display: flex; flex-wrap: wrap; gap: 20px; }
 .index_sec42 ul li { width: calc(25% - 15px); box-shadow: 0 1px 5px #0000001c; padding: 12px; border-radius: 3px; position: relative; }
-.index_sec42 ul li span { color: #0a91cf; font-family: 'Poppins-Regular'; font-size: 14px; line-height: 18px;
+.index_sec42 ul li span { color: #0a91cf; font-family: 'Poppins-Regular'; font-size: 14px; line-height: 18.6px;
 border: 1px solid #f0f0f0; border-radius: 3px; padding: 3px 5px; position: absolute; top: 0; right: 0; }
 .index_sec42 ul li h3 { font-family: 'Poppins-Medium'; font-size: 15px; line-height: 20px; color: #000; margin-bottom: 3px; }
-.index_sec42 ul li p { font-family: 'Poppins-Light'; font-size: 14px; line-height: 18px; color: #000; margin-bottom: 0; }
+.index_sec42 ul li p { font-family: 'Poppins-Light'; font-size: 14px; line-height: 18.6px; color: #000; margin-bottom: 0; }
 /* END index_sec4 */
 
 
@@ -582,10 +582,10 @@ border: 1px solid #f0f0f0; border-radius: 3px; padding: 3px 5px; position: absol
 bottom: 0; padding: 20px; padding-top: 60px; width: 300px; transition: width .2s; transition-timing-function: linear; }
 .b-nav:not(.open) { visibility: hidden; animation-duration: 0.4s; animation-fill-mode: backwards; -webkit-animation-name: slideOutLeft; animation-name: slideOutLeft; }
 .b-nav.open li { padding-left: 0; animation-duration: 0.2s; animation-fill-mode: both; -webkit-animation-name: slideInLeft; animation-name: slideInLeft; }
-.b-link { color: #000; width: 100%; float: left; padding: 20px; font-size: 15px; text-align: left; line-height: 20px; padding-left: 0; border-bottom: 1px solid #e7e7e7;
+.b-link { color: #000; width: 100%; float: left; padding: 20px; font-size: 15px; line-height: 20px; text-align: left;  padding-left: 0; border-bottom: 1px solid #e7e7e7;
 text-transform: capitalize; font-family: 'Poppins-Regular'; text-decoration: none; margin-left: 0; }
 .b-link:hover , .b-link:focus { color: #000; text-decoration: none; }
-.b-brand { font-size: 17px; font-family: 'Poppins-Regular'; margin-left: 0; text-decoration: none; text-transform: capitalize; }
+.b-brand { font-size: 17px; line-height: 22.6px; font-family: 'Poppins-Regular'; margin-left: 0; text-decoration: none; text-transform: capitalize; }
 .b-menu { cursor: pointer; display: block; height: 20px; position: absolute; top: 26px; transition: all 0.2s ease 0.2s; width: 30px; z-index: 12; right: 20px; }
 .b-bun--bottom, .b-bun--mid, .b-bun--top { height: 2px; width: 30px; }
 .b-bun { background: #fff; transition: all .4s ease; }
@@ -614,11 +614,11 @@ text-transform: capitalize; font-family: 'Poppins-Regular'; text-decoration: non
 .logInLeft img { max-width: unset; width: 100%; height: 100vh; min-height: 100%; object-fit: cover; object-position: left; }
 .users { width: 440px; padding: 60px 30px; padding-bottom: 120px; }
 .logIn { margin: 0 0 50px; width: 100%; position: relative; }
-.logIn h2 { font-size: 44px; line-height: 60px; margin: 0 0 20px; color: #000; font-family: 'DMSans-Medium'; }
-.logIn p { font-size: 14px; line-height: 19px; margin: 0 0 10px; color: #000; }
+.logIn h2 { font-size: 44px; line-height: 58.6px; margin: 0 0 20px; color: #000; font-family: 'DMSans-Medium'; }
+.logIn p { font-size: 14px; line-height: 18.6px; margin: 0 0 10px; color: #000; }
 .formLogo img { width: 200px; margin: 0 auto 20px; display: block; }
 .users .form { position: relative; }
-.users .form label.control-label { font-family: 'Poppins-Regular'; color: #444; font-size: 14px; line-height: 19px; margin: 0 0 5px; }
+.users .form label.control-label { font-family: 'Poppins-Regular'; color: #444; font-size: 14px; line-height: 18.6px; margin: 0 0 5px; }
 .users .form-group { margin: 0 0 25px; position: relative; }
 .users .form-group.formBtn { margin: 50px 0 20px; }
 .users label.error { position: absolute; left: 0; bottom: -20px; color: #ff0000; font-size: 13px; }
@@ -626,12 +626,12 @@ text-transform: capitalize; font-family: 'Poppins-Regular'; text-decoration: non
 .or-message { color: #000; text-align: center; }
 .form-group.links { display: block; margin: 0; text-align: center; color: #000; }
 .links p { color: #000; margin-bottom: 0; }
-.links a { color: #70b32f; font-family: 'Poppins-Regular'; font-size: 14px; line-height: 19px; margin: 0 4px 0 0; text-decoration: underline; transition: all 0.3s ease-in-out 0s; }
+.links a { color: #70b32f; font-family: 'Poppins-Regular'; font-size: 14px; line-height: 18.6px; margin: 0 4px 0 0; text-decoration: underline; transition: all 0.3s ease-in-out 0s; }
 .links a:hover, .links a:focus { color: #70b32f; }
 .logInArea .checkCustom { display: inline-block; }
 .users .btn { height: 50px; padding: 0 15px; font-size: 15px; line-height: 50px; width: 100%; }
 .logForgot { text-align: right; }
-.logForgot a { color: #444; font-size: 14px; font-family: 'Poppins-Regular'; line-height: 20px; margin: 0 4px 0 0; text-decoration: underline; transition: all 0.3s ease-in-out 0s; }
+.logForgot a { color: #444; font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Regular'; margin: 0 4px 0 0; text-decoration: underline; transition: all 0.3s ease-in-out 0s; }
 .logForgot a:hover, .chkRegister a:focus { color: #444; }
 .users .otp { display: flex; flex-wrap: wrap; gap: 5px 15px; }
 .users .otp .form-control { width: 50px; text-align: center; font-size: 20px; }
@@ -641,7 +641,7 @@ text-transform: capitalize; font-family: 'Poppins-Regular'; text-decoration: non
 .logInArea a.logo img { width: 200px; }
 .logBottom { position: absolute; bottom: 0; right: 0; width: 100%; z-index: 1; opacity: .5; }
 .logBottomImage { position: absolute; bottom: 0; right: 0; width: 100%; z-index: 1; display: none; }
-.users .btnGrey { font-size: 15px; }
+.users .btnGrey { font-size: 15px; line-height: 20px; }
 .log_2 { display: flex; width: 100%; gap: 15px; }
 .users .log_2 select.form-control { width: 125px; flex-shrink: 0; }
 /* END Register LOG IN FORGOT */
@@ -662,8 +662,8 @@ background-position: center; background-color: #26535f; width: 100%; height: 290
 .prof_div1 { width: 100%; display: flex; align-items: center; gap: 20px; padding: 40px; padding-bottom: 60px; }
 .prof_div1 > div:first-child { width: 80px; height: 80px; border-radius: 50%; overflow: hidden; }
 .prof_div1 > div:first-child img { width: 100%; height: 100%; object-fit: cover; }
-.prof_div1 span { font-size: 14px; line-height: 24px; font-family: 'Poppins-Regular'; color: #000; -webkit-font-smoothing: antialiased; }
-.prof_div1 p { font-size: 17px; line-height: 18px; font-family: 'Poppins-Medium'; color: #000;
+.prof_div1 span { font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Regular'; color: #000; -webkit-font-smoothing: antialiased; }
+.prof_div1 p { font-size: 17px; line-height: 22.6px; font-family: 'Poppins-Medium'; color: #000;
 margin-top: 3px; margin-bottom: 0; -webkit-font-smoothing: antialiased; }
 .prof_div2 ul li a { width: 100%; display: flex; align-items: center; gap: 15px; padding: 10px 30px; border-radius: 2px; background-color: #fff; }
 .prof_div2 ul li span { font-weight: 200; font-size: 32px; color: #000; top: -2px; position: relative; }
@@ -693,7 +693,7 @@ text-align: right; margin-top: 8px; -webkit-font-smoothing: antialiased; cursor:
 .varify_em:hover, .varify_em:focus { color: #df2e2e; }
 .prof_div6 { border-top: 1px solid #f2f2f2; box-shadow: 0 -1px 0 #f2f2f2; width: 100%; }
 .prof_div61 { max-width: 540px; padding: 50px; }
-.prof_div61 h4 { font-size: 25px; line-height: 30px; font-family: 'Poppins-Medium'; color: #000; -webkit-font-smoothing: antialiased; margin-bottom: 30px; }
+.prof_div61 h4 { font-size: 25px; line-height: 33.3px; font-family: 'Poppins-Medium'; color: #000; -webkit-font-smoothing: antialiased; margin-bottom: 30px; }
 .prof_div61 .form_btn { width: 100%; margin-top: 30px; }
 .form_btn a { font-size: 15px; line-height: 20px; font-family: 'Poppins-Regular'; color: #fff; background-color: #0a91cf; -webkit-font-smoothing: antialiased;
 padding: 10px 20px; border-radius: 3px; min-width: 100px; display: inline-block; text-align: center; cursor: pointer; }
@@ -705,7 +705,7 @@ padding: 10px 20px; border-radius: 3px; min-width: 100px; display: inline-block;
 .error_sec2 img { width: 700px; }
 .error_sec2 h3 { font-size: 30px; line-height: 40px; font-family: 'Poppins-Medium'; color: #000; -webkit-font-smoothing: antialiased; margin-top: 30px; margin-bottom: 20px; }
 .error_sec2 p { font-size: 15px; line-height: 20px; font-family: 'Poppins-Regular'; color: #000; margin-bottom: 10px; }
-.error_sec2 a { font-family: 'Poppins-Regular'; -webkit-font-smoothing: antialiased; text-decoration: underline; font-size: 15px; line-height: 22px; color: #0a91cf; display: inline-block; }
+.error_sec2 a { font-family: 'Poppins-Regular'; -webkit-font-smoothing: antialiased; text-decoration: underline; font-size: 15px; line-height: 20px; color: #0a91cf; display: inline-block; }
 /* END error_sec1 */
 
 
@@ -758,7 +758,7 @@ padding: 10px 20px; border-radius: 3px; min-width: 100px; display: inline-block;
 .range-wrap .slider-selection { background: #27535F; }
 .rangeValue .tooltip-inner:before { content: "£"; position: absolute; left: -10px; }
 .filterLeftInner h4 { font-size: 18px; line-height: 24px; margin: 0 0 20px; font-family: 'Poppins-Medium'; }
-.filterLeftInner h4 span { font-size: 14px; line-height: 20px; font-family: 'Poppins-Regular'; }
+.filterLeftInner h4 span { font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Regular'; }
 .range-wrap span { position: absolute; left: 0; bottom: -16px; }
 .checkValue { margin: 5px 0 0; }
 .filterLeftInner span.clear { float: right; }
@@ -770,7 +770,7 @@ padding: 10px 20px; border-radius: 3px; min-width: 100px; display: inline-block;
 .flightResultMain { padding: 70px 0; }
 .flightRight { padding-left: 30px; }
 .filter_tabs .checkCustom { padding: 8px 15px; display: inline-block; }
-.filter_tabs .checkCustom p { margin: 0; font-size: 14px; line-height: 19px; font-family: 'Poppins-Regular'; color: #000; z-index: 999; position: relative; }
+.filter_tabs .checkCustom p { margin: 0; font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Regular'; color: #000; z-index: 999; position: relative; }
 .filter_tabs .checkCustom .checkmark { width: 100%; height: 100%; background-color: #fcfcfc; border: 1px solid #e2e2e2; border-radius: 2px; }
 .filter_tabs .checkCustom input:checked~.checkmark { background-color: #f2fcff; border-color: #27535F; }
 .filter_tabs .checkCustom input:checked~.checkmark:after { display: block; }
@@ -782,8 +782,8 @@ padding: 10px 20px; border-radius: 3px; min-width: 100px; display: inline-block;
 .priceRadio .radioCustom:last-child .checkmark { border-radius:0 2px 2px 0; border-left: 0; }
 .priceRadio .radioCustom input:checked~.checkmark { background-color: #fff; border-bottom: 3px solid #27535F; }
 .priceRadio .radioCustom input:checked~.checkmark:after { display: none; }
-.priceRadioData ul li { margin: 0; font-size: 14px; line-height: 19px; }
-.priceRadioData ul li.priceListing { font-size: 18px; line-height: 25px; font-family: 'Poppins-Medium'; }
+.priceRadioData ul li { margin: 0; font-size: 14px; line-height: 18.6px; }
+.priceRadioData ul li.priceListing { font-size: 18px; line-height: 24px; font-family: 'Poppins-Medium'; }
 .priceRadioData ul li span { float: right; }
 /* END flightLeft */
 
@@ -794,9 +794,9 @@ padding: 10px 20px; border-radius: 3px; min-width: 100px; display: inline-block;
 .flightRightData { border: 1px solid #e2e2e2; border-radius: 2px 2px 0 0; }
 .flightRightDataHead { background: #fcfcfc; padding: 10px 15px; border-bottom: 1px solid #e2e2e2; }
 .flightRightDataHead h4 span { float: right; }
-.flightRightDataHead h4 { margin-bottom: 0; color: #000; font-size: 14px; line-height: 19px; font-family: 'Poppins-Regular'; }
-.flightRightDataHead h4 b { font-size: 20px; line-height: 28px; font-family: 'Poppins-Medium'; margin-right: 10px; }
-.flightRightDataHead h4 span { font-size: 14px; line-height: 19px; font-family: 'Poppins-Regular'; margin-top: 5px; }
+.flightRightDataHead h4 { margin-bottom: 0; color: #000; font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Regular'; }
+.flightRightDataHead h4 b { font-size: 20px; line-height: 26.6px; font-family: 'Poppins-Medium'; margin-right: 10px; }
+.flightRightDataHead h4 span { font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Regular'; margin-top: 5px; }
 
 .flightRightDataInner ul { display: flex; flex-wrap: wrap; gap: 30px; }
 .flightRightDataInner ul li { margin: 0; }
@@ -808,16 +808,16 @@ padding: 10px 20px; border-radius: 3px; min-width: 100px; display: inline-block;
 .flightRightDataInner:last-child { border-bottom: none; }
 .flightRightDataInner ul li .img_sec { border: 1px solid #ddd; padding: 3px; text-align: center; margin: 0 0 5px; }
 .flightRightDataInner ul li .img_sec img { width: 48px; object-fit: cover; }
-.flightRightDataInner ul li h6 { color: #000; font-size: 14px; line-height: 19px; font-family: 'Poppins-Regular'; text-align: center; margin: 0; }
-.flightRightDataInner ul li h5 { font-size: 20px; line-height: 26px; color: #000; margin: 0; }
-.flightRightDataInner ul li h4 { margin: 0; color: #000; font-size: 14px; line-height: 19px; font-family: 'Poppins-Regular'; }
-.flightRightDataInner ul li p { margin: 0; color: #000; font-size: 14px; line-height: 19px; font-family: 'Poppins-Regular'; }
+.flightRightDataInner ul li h6 { color: #000; font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Regular'; text-align: center; margin: 0; }
+.flightRightDataInner ul li h5 { font-size: 20px; line-height: 26.6px; color: #000; margin: 0; }
+.flightRightDataInner ul li h4 { margin: 0; color: #000; font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Regular'; }
+.flightRightDataInner ul li p { margin: 0; color: #000; font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Regular'; }
 .flightRange { margin: 0; position: relative; text-align: center; }
 .flightdashLine { height: 1px; border-bottom: 1px dashed #000; margin: 0 0 10px; }
 .flightRightDataInner ul li .flightRange p { text-align: center; position: relative; display: inline-block; margin: 0 0 10px; }
 .flightRightDataInner ul li .flightRange p:before { background: #000; border-radius: 50%; content: ""; width: 8px; height: 8px; position: absolute; left: 50%; bottom: -15px; transform: translate(-50%, 0); }
 .flightRange span { text-align: center; color: #70b32f; width: 100%; display: inline-block; }
-.btnBlack { background: #000; box-shadow: none; border: 1px solid; border-radius: 3px; color: #fff; font-size: 14px; line-height: 20px; padding: 10px 25px;
+.btnBlack { background: #000; box-shadow: none; border: 1px solid; border-radius: 3px; color: #fff; font-size: 14px; line-height: 18.6px; padding: 10px 25px;
 text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
 .btnBlack:hover, .btnBlack:focus { background: #000; box-shadow: none; border: 1px solid; color: #fff; }
 .flightRightInn .btnBlack { float: right; margin: 2px 10px 0 0; }
@@ -849,7 +849,7 @@ text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; 
 .accRangeLine:before { background: #000; border-radius: 50%; content: ""; width: 8px; height: 8px; position: absolute; left: 0; bottom: -4px; }
 .accRangeLine:after { background: #000; content: ""; width: 8px; height: 8px; position: absolute; right: 0; bottom: -4px; }
 .accLeftRange { width: 40px; }
-.accLeftRange h6 { font-size: 16px; line-height: 22px; font-family: 'Poppins-Regular'; margin: 0; }
+.accLeftRange h6 { font-size: 16px; line-height: 21.3px; font-family: 'Poppins-Regular'; margin: 0; }
 .accLeftRange.accRightRange { text-align: right; }
 .baggage { margin: 0 0 30px; display: inline-block; width: 100%; }
 .baggage p { font-size: 12px; line-height: 16px; margin: 0; }
@@ -865,8 +865,8 @@ line-height: 16px; font-family: 'Poppins-Regular'; position: relative; right: -1
 .accordionList { padding: 0; margin: 0 0 30px; }
 .accordionList ul li .img_sec { border: 1px solid #ddd; padding: 3px; text-align: center; margin: 0 0 5px; }
 .accordionList ul li .img_sec img { width: 48px; object-fit: cover; }
-.accordionList ul li h6 { color: #000; font-size: 14px; line-height: 19px; font-family: 'Poppins-Regular'; text-align: center; margin: 0; }
-.accordionList ul li h5 { font-size: 16px; line-height: 22px; color: #000; margin: 0 0 5px; }
+.accordionList ul li h6 { color: #000; font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Regular'; text-align: center; margin: 0; }
+.accordionList ul li h5 { font-size: 16px; line-height: 21.3px; color: #000; margin: 0 0 5px; }
 .accordionList ul li span { margin: 0; color: #000; font-size: 12px; line-height: 16px; font-family: 'Poppins-Light'; }
 .accordionList ul li p { margin: 0 0 5px; color: #000; font-size: 12px; line-height: 16px; font-family: 'Poppins-Regular'; }
 .dottedAccordionRange { margin: 0; position: relative; text-align: center; }
@@ -886,12 +886,12 @@ line-height: 16px; font-family: 'Poppins-Regular'; position: relative; right: -1
 .flightSummaryDataMain { margin: 10px 0 40px; display: inline-block; width: 100%; }
 .flightSummaryData { border: 1px solid #e2e2e2; border-radius: 2px 2px 0 0; padding: 0 0 10px; margin: 0; display: inline-block; width: 100%; }
 .flightsummaryHead { background: #fcfcfc; padding: 15px 15px; border-bottom: 1px solid #e2e2e2; }
-.flightsummaryHead h4 { margin-bottom: 0; color: #000; font-size: 16px; line-height: 22px; font-family: 'Poppins-Regular'; vertical-align: middle; }
+.flightsummaryHead h4 { margin-bottom: 0; color: #000; font-size: 16px; line-height: 21.3px; font-family: 'Poppins-Regular'; vertical-align: middle; }
 .flightsummaryHead h4 b { font-family: 'Poppins-Medium'; }
 .flightsummaryHead h4 span { float: right; padding: 6px 12px; background: #fcfcfc; border: 1px solid #e2e2e2; vertical-align: middle; font-size: 12px; line-height: 16px; position: relative; top: -4px; }
 .flightsummaryHead h4 img { width: auto; margin-right: 5px; vertical-align: middle; }
 .headingSummary { margin: 0 0 20px; display: inline-block; width: 100%; }
-.headingSummary h3 { font-family: 'Poppins-Medium'; font-size: 22px; line-height: 30px; margin: 0 0 10px; }
+.headingSummary h3 { font-family: 'Poppins-Medium'; font-size: 22px; line-height: 29.3px; margin: 0 0 10px; }
 .headingSummary p { font-family: 'Poppins-Regular'; font-size: 15px; line-height: 20px; margin: 0 0 10px; }
 .flightSummaryInner { padding: 30px 15px 0; margin: 0; font-family: 'Poppins-Regular'; }
 .flightSummaryInner ul { display: flex; flex-wrap: wrap; gap: 30px 15px; justify-content: left; align-items: center; }
@@ -904,12 +904,12 @@ line-height: 16px; font-family: 'Poppins-Regular'; position: relative; right: -1
 .summaryLine { background: #000; margin: 0 0 10px; width: 90px; height: 1px; }
 .img_Flight figure { border: 1px solid #ddd; padding: 0; margin: 0 11px 5px 0; width: 38px; height: 38px; display: block; }
 .img_Flight img { width: 38px; object-fit: cover; }
-.figureRight h6 { color: #000; font-size: 14px; line-height: 19px; font-family: 'Poppins-Medium'; margin: 0; }
-.figureRight p { color: #000; font-size: 14px; line-height: 19px; font-family: 'Poppins-Light'; margin: 0; }
+.figureRight h6 { color: #000; font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Medium'; margin: 0; }
+.figureRight p { color: #000; font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Light'; margin: 0; }
 .img_Plane img { margin: 0 0 15px; width: 20px; }
-.img_Plane h5 { color: #000; font-size: 18px; line-height: 27px; font-family: 'Poppins-Medium'; margin: 0; }
-.timing p { margin: 0; font-size: 14px; line-height: 19px; font-family: 'Poppins-Light'; }
-.timing h5 { color: #000; font-size: 18px; line-height: 27px; font-family: 'Poppins-Medium'; margin: 5px 0; }
+.img_Plane h5 { color: #000; font-size: 18px; line-height: 24px; font-family: 'Poppins-Medium'; margin: 0; }
+.timing p { margin: 0; font-size: 14px; line-height: 18.6px; font-family: 'Poppins-Light'; }
+.timing h5 { color: #000; font-size: 18px; line-height: 24px; font-family: 'Poppins-Medium'; margin: 5px 0; }
 
 .stopSummary { display: inline-block; width: 100%; position: relative; margin: 30px 0 30px; text-align: center; }
 .stopSummary:before { background: #cbc9c9; content: ""; width: 100%; height: 1px; position: absolute; left: 0; top: 50%; }
@@ -923,7 +923,7 @@ line-height: 16px; font-family: 'Poppins-Regular'; position: relative; right: -1
 .accordionSummaryMain .headingSummary { margin: 0 0 20px; }
 .accordionSummary .accordion-item { border: none; margin: 0 0 10px; }
 .accordionSummary .accordion-header { padding: 5px 0; border: 1px solid #ddd; border-radius: 0 0 2px 2px; }
-.accordionSummary .accordion-button { color: #000; font-size: 16px; line-height: 22px; font-family: 'Poppins-Regular'; padding: 12px 25px; }
+.accordionSummary .accordion-button { color: #000; font-size: 16px; line-height: 21.3px; font-family: 'Poppins-Regular'; padding: 12px 25px; }
 .accordionSummary .accordion-button::after { content: "\e5cf"; font-family: 'Material Symbols Outlined'; font-weight: 400; background: transparent; top: 2px; font-size: 24px; }
 .accordionSummary .accordion-button:not(.collapsed)::after { background: transparent; content: "\e5cf"; font-family: 'Material Symbols Outlined'; font-weight: 400; }
 .accordionSummary .accordion-button:focus { border-color: none; box-shadow: none; }
@@ -932,7 +932,7 @@ line-height: 16px; font-family: 'Poppins-Regular'; position: relative; right: -1
 
 .firstPartForm { display: flex; flex-wrap: wrap; gap: 0 15px; margin: 10px 0 0; }
 .firstPartForm .form-group { position: relative; margin: 0 0 15px; }
-.firstPartForm label { margin: 0 0 5px; font-size: 14px; line-height: 19px; display: block; }
+.firstPartForm label { margin: 0 0 5px; font-size: 14px; line-height: 18.6px; display: block; }
 .firstPartForm .form-control { background-color: #fff; border: 1px solid #e2e2e2; border-radius: 2px; box-shadow: none; color: #000; font-size: 14px;
 padding: 10px 35px 10px 12px; transition: all 0.4s; height: 40px; position: relative; }
 .genderRadio { display: flex; }
@@ -943,7 +943,7 @@ padding: 10px 35px 10px 12px; transition: all 0.4s; height: 40px; position: rela
 .genderRadio .radioCustom:last-child .checkmark { border-radius:0 2px 2px 0; border-left: 0; }
 .genderRadio .radioCustom input:checked~.checkmark { background-color: #f2fcff; border-bottom: 3px solid #27535F; }
 .genderRadio .radioCustom input:checked~.checkmark:after { display: none; }
-.genderRadioData p { margin: 0 0 5px; font-size: 14px; line-height: 19px; }
+.genderRadioData p { margin: 0 0 5px; font-size: 14px; line-height: 18.6px; }
 
 .birthDateMain { display: block; }
 .birthDate { width: auto; display: inline-block; position: relative; }
@@ -955,7 +955,7 @@ padding: 10px 35px 10px 12px; transition: all 0.4s; height: 40px; position: rela
 background-position: 90% center; background-repeat: no-repeat; background-size: 13px; }
 .secondPartForm { display: flex; gap: 0 15px; margin: 10px 0 0px; flex-wrap: wrap; }
 .secondPartForm .form-group { position: relative; margin: 0 0 15px; width: 230px; }
-.secondPartForm label { margin: 0 0 5px; font-size: 14px; line-height: 19px; display: block; font-family: 'Poppins-Regular'; }
+.secondPartForm label { margin: 0 0 5px; font-size: 14px; line-height: 18.6px; display: block; font-family: 'Poppins-Regular'; }
 .secondPartForm .form-control { background-color: #fff; border: 1px solid #e2e2e2; border-radius: 2px; box-shadow: none; color: #000; 
 font-size: 14px; padding: 10px 12px; transition: all 0.4s; height: 40px; position: relative; }
 /* END accordionSummaryMain */
@@ -964,7 +964,7 @@ font-size: 14px; padding: 10px 12px; transition: all 0.4s; height: 40px; positio
 .SummaryContactMain { margin: 0 0 40px; display: inline-block; width: 100%; }
 .SummaryContactInner { border: 1px solid #e2e2e2; margin: 0 0 15px; padding: 25px 20px 15px; }
 .SummaryContactInner .form-group { position: relative; margin: 0 0 15px; }
-.SummaryContactInner label { margin: 0 0 5px; font-size: 14px; line-height: 19px; display: block; font-family: 'Poppins-Regular'; }
+.SummaryContactInner label { margin: 0 0 5px; font-size: 14px; line-height: 18.6px; display: block; font-family: 'Poppins-Regular'; }
 .SummaryContactInner .form-control { background-color: #fff; border: 1px solid #e2e2e2; border-radius: 2px; box-shadow: none; color: #000;
 font-size: 14px; padding: 10px 12px; transition: all 0.4s; height: 40px; position: relative; }
 .SummaryContactInner textarea.form-control { min-height: 80px; resize: none; }
@@ -975,7 +975,7 @@ font-size: 14px; padding: 10px 12px; transition: all 0.4s; height: 40px; positio
 .informationMain { margin: 0 0 40px; display: inline-block; width: 100%; }
 .informationInner { border: 1px solid #e2e2e2; margin: 0; padding: 25px 20px; }
 .informationInner ul { padding-left: 15px; margin: 0; }
-.informationInner ul li { list-style-type: square; font-family: 'Poppins-Regular'; font-size: 14px; line-height: 19px; color: #000; margin: 0 0 15px; }
+.informationInner ul li { list-style-type: square; font-family: 'Poppins-Regular'; font-size: 14px; line-height: 18.6px; color: #000; margin: 0 0 15px; }
 .informationInner ul li:last-child { margin-bottom: 0; }
 .informationInner .checkCustom .checkmark { border: 1px solid #000; }
 .btnRight { text-align: right; }
@@ -993,10 +993,10 @@ font-size: 14px; padding: 10px 12px; transition: all 0.4s; height: 40px; positio
 /* START rightBarSummary */
 .rightBarSummary { background: #ECF8FC; border: 1px solid #C5DEE5; border-radius: 2px; font-family: 'Poppins-Regular'; }
 .headingRightSummary { background: #DCF1F8; border-bottom: 1px solid #C5DEE5; border-radius: 2px 2px 0 0; padding: 14px 15px; margin: 0; }
-.headingRightSummary h3 { margin: 0; font-size: 16px; line-height: 22px; font-family: 'Poppins-Medium'; color: #000; }
+.headingRightSummary h3 { margin: 0; font-size: 16px; line-height: 21.3px; font-family: 'Poppins-Medium'; color: #000; }
 .totalRightData { padding: 20px 15px; }
 .totalRightSummary { margin: 0 0 15px; border-bottom: 1px dashed #000; padding: 0 0 15px; }
-.totalRightSummary h4 { margin: 0 0 5px; font-size: 16px; line-height: 22px; font-family: 'Poppins-Light'; color: #000; }
+.totalRightSummary h4 { margin: 0 0 5px; font-size: 16px; line-height: 21.3px; font-family: 'Poppins-Light'; color: #000; }
 .totalRightSummary p { margin: 0; font-size: 30px; line-height: 40px; font-family: 'Poppins-Regular'; color: #000; }
 .totalRightData ul { padding: 0; margin: 0; }
 .totalRightData ul li { list-style-type: none; margin: 0 0 10px; font-size: 15px; line-height: 20px; font-family: 'Poppins-Light'; color: #000; }
@@ -1009,10 +1009,10 @@ font-size: 14px; padding: 10px 12px; transition: all 0.4s; height: 40px; positio
 .noResultsMain { padding: 70px 0 70px; display: inline-block; width: 100%; }
 .noResultsInner { text-align: center; margin: 0 auto 30px; display: block; width: 100%; max-width: 850px; }
 .noResultsInner img { margin: 0 0 30px; }
-.noResultsInner h2 { color: #000; font-size: 38px; line-height: 49px; margin: 0 0 30px; font-family: 'Poppins-Medium'; }
-.noResultsInner p { color: #000; font-size: 20px; line-height: 28px; margin: 0; font-family: 'Poppins-Regular'; }
+.noResultsInner h2 { color: #000; font-size: 38px; line-height: 50.6px; margin: 0 0 30px; font-family: 'Poppins-Medium'; }
+.noResultsInner p { color: #000; font-size: 20px; line-height: 26.6px; margin: 0; font-family: 'Poppins-Regular'; }
 .noResultsBottom { text-align: center; border-top: 1px dashed #707070; padding-top: 30px; margin: 0 auto 30px; display: block; width: 100%; max-width: 800px; }
-.noResultsBottom h5 { color: #000; font-size: 18px; line-height: 27px; margin: 0 0 20px; font-family: 'Poppins-Regular'; }
+.noResultsBottom h5 { color: #000; font-size: 18px; line-height: 24px; margin: 0 0 20px; font-family: 'Poppins-Regular'; }
 .noResultsBottom ul { margin: 0; padding: 0; }
 .noResultsBottom ul li { display: inline-block; padding: 0 20px 0 0; }
 .noResultsBottom ul li a { font-size: 15px; line-height: 20px; font-family: 'Poppins-Regular'; color: #1573DD; text-decoration: underline; }
@@ -1033,8 +1033,8 @@ transition: all 0.3s ease-in-out; opacity: 1; position: absolute; border: 1px so
 
 /* START Time out */
 .modalTime img { width: 200px; margin: 0 0 80px; }
-.modalTime h2 { font-size: 26px; line-height: 35px; font-family: 'Poppins-Regular'; color: #000; margin: 0 0 30px; }
-.btnWhite { background: #fff; box-shadow: none; border: 1px solid #e5e5e5; border-radius: 3px; color: #000; font-size: 14px; line-height: 20px; padding: 10px 25px;
+.modalTime h2 { font-size: 26px; line-height: 34.6px; font-family: 'Poppins-Regular'; color: #000; margin: 0 0 30px; }
+.btnWhite { background: #fff; box-shadow: none; border: 1px solid #e5e5e5; border-radius: 3px; color: #000; font-size: 14px; line-height: 18.6px; padding: 10px 25px;
 text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
 .btnWhite:hover, .btnWhite:focus { background: #fff; box-shadow: none; border: 1px solid #e5e5e5; color: #000; }
 .modalTimeBtn { text-align: center; }
@@ -1045,7 +1045,7 @@ text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; 
 /* START noFlightData */
 .noFlightData { border: 1px solid #e2e2e2; border-radius: 2px; text-align: center; padding: 70px 30px 100px; margin: 0 0 30px; }
 .noFlightData img { margin: 0 auto 80px; display: block; width: 240px; }
-.noFlightData h2 { color: #000; font-size: 22px; line-height: 30px; margin: 0 0 15px; font-family: 'Poppins-Medium'; }
+.noFlightData h2 { color: #000; font-size: 22px; line-height: 29.3px; margin: 0 0 15px; font-family: 'Poppins-Medium'; }
 .noFlightData p { color: #000; font-size: 15px; line-height: 20px; margin: 0; font-family: 'Poppins-Regular'; }
 /* END noFlightData */
 
@@ -1053,7 +1053,7 @@ text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; 
 /* START contactMain */
 .contactMain { background: #f7f7f7; overflow: hidden; position: relative; padding: 100px 0; }
 .contactMain:before { background: url(../images/worldmap.png); background-size: 100% 100%; content: ""; width: 70%; height: 100%; position: absolute; left:15%; top: 0; }
-.contactLeft h2 { color: #000; font-size: 42px; line-height: 60px; margin: 0 0 20px; font-family: 'DMSans-Bold'; position: relative; text-align: center; }
+.contactLeft h2 { color: #000; font-size: 42px; line-height: 56px; margin: 0 0 20px; font-family: 'DMSans-Bold'; position: relative; text-align: center; }
 .contactLeft p { font-size: 15px; line-height: 20px; color: #000; text-align: center; font-family: 'Poppins-Regular'; margin: 0 0 30px; }
 .contactLeft { background: #fff; border: 1px solid #ddd; border-radius: 3px; margin: 0; padding: 50px 13% 50px; position: relative; }
 .contactArea:before { content: ""; background: #fff url(../images/blogBG.png); width: 100%; height: 100%; position: absolute; right: 0; top: 0; background-size: 100% 100%; opacity: 0.5; }
@@ -1082,7 +1082,7 @@ text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; 
 .contactAddress ul li figure { width: 70px; height: 70px; border: 1px solid #ddd; border-radius: 3px; margin: 0 auto 15px; position: relative; display: block; }
 .contactAddress ul li img { width: 30px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
 .contactAddressRight { display: block; }
-.contactAddress ul li h4 { color: #fff; font-size: 20px; line-height: 27px; margin: 0 0 5px; width: 100%; font-family: 'Poppins-Medium'; }
+.contactAddress ul li h4 { color: #fff; font-size: 20px; line-height: 26.6px; margin: 0 0 5px; width: 100%; font-family: 'Poppins-Medium'; }
 .contactAddress ul li p { color: #fff; font-size: 15px; line-height: 20px; margin: 0; }
 /* END contactAddressMain */
 
@@ -1094,13 +1094,18 @@ text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; 
 .terms h2 { color: #000; font-size: 42px; line-height: 56px; margin: 0 0 30px; font-family: 'DMSans-Bold'; position: relative; }
 .termsInner { margin: 0 0 50px; display: inline-block; width: 100%; }
 .termsInner:last-child { margin: 0; }
-.termsInner h4 { color: #000; font-size: 20px; line-height: 27px; margin: 0 0 10px; width: 100%; font-family: 'Poppins-SemiBold'; }
-.termsInner p { color: #000; font-size: 15px; line-height: 20px; margin: 0 0 25px; }
+.termsInner h3 { color: #000; font-size: 30px; line-height: 40px;margin: 0 0 15px; font-family: 'Poppins-Medium'; }
+.termsInner h4 { color: #000; font-size: 20px; line-height: 26.6px; margin: 0 0 15px; font-family: 'Poppins-Medium'; }
+.termsInner h5 { color: #000; font-size: 16px; line-height: 21.3px; margin: 0 0 15px; font-family: 'Poppins-Medium'; }
+.termsInner p { color: #000; font-size: 15px; line-height: 20px; margin: 0 0 25px; font-family: 'Poppins-Light'; }
+.termsInner ul li h5 { color: #000; font-size: 15px; line-height: 20px; margin: 0 0 15px; }
+.termsInner ul li p { margin: 0 0 15px; }
 .termsInner p:last-child { margin: 0; }
-.termsInner ul { margin: 10px 0 0; padding-left: 35px; display: inline-block; width: 100%; }
-.termsInner ul li { list-style: none; margin: 0 0 15px; position: relative; font-size: 15px; line-height: 20px; color: #000; }
-.termsInner ul li:last-child { margin: 0; }
-.termsInner ul li::before { background: #000; content: "";  left: -30px; position: absolute; top: 11px; width: 20px; height: 1px;}
+.termsInner ul { margin: 10px 0 10px; padding-left: 35px; display: inline-block; width: 100%; }
+.termsInner ul li { list-style: none; margin: 0 0 15px; position: relative; font-size: 15px; line-height: 20px; color: #000; font-family: 'Poppins-Light';}
+.termsInner ul li::before { background: #000; content: ""; left: -30px; position: absolute; top: 11px; width: 20px; height: 1px;}
+.termsInner ul:last-child li:last-child { margin: 0;}
+.termsInner strong { font-family: 'Poppins-SemiBold';}
 /* END termsMain */
 
 
@@ -1146,12 +1151,12 @@ padding: 8px 12px !important; background: #fff; font-family: 'Poppins-Regular'; 
 .aboutPageMain { overflow: hidden; position: relative; padding: 100px 0 40px; }
 .aboutPageMain .about_Img { position: absolute; right: 0; top: 0;}
 .aboutPageLeft h2 { color: #000; font-size: 42px; line-height: 56px; margin-bottom: 20px; font-family: 'DMSans-Bold'; -webkit-font-smoothing: antialiased; position: relative; z-index: 1;}
-.aboutPageLeft h4 { font-family: 'Poppins-Medium'; font-size: 18px; line-height: 25px; color: #000; margin: 0 0 15px; }
+.aboutPageLeft h4 { font-family: 'Poppins-Medium'; font-size: 18px; line-height: 24px; color: #000; margin: 0 0 15px; }
 .aboutPageLeft { position: relative; margin: 0 0 30px; }
 .aboutPageLeft .headingOther { margin: 0 0 20px; }
-.aboutPageLeft p { color: #000; font-size: 16px; line-height: 22px; margin: 0 0 30px; font-family: 'Poppins-Light';}
+.aboutPageLeft p { color: #000; font-size: 16px; line-height: 21.3px; margin: 0 0 30px; font-family: 'Poppins-Light';}
 .aboutPageLeft ul { margin: 0 0 20px; padding-left: 35px; display: inline-block; width: 100%;}
-.aboutPageLeft ul li { list-style: none; margin: 0 0 20px; position: relative; font-size: 16px; line-height: 22px; }
+.aboutPageLeft ul li { list-style: none; margin: 0 0 20px; position: relative; font-size: 16px; line-height: 21.3px; }
 .aboutPageLeft ul li::before { color: #fff; left: -30px; position: absolute; top: 11px; background: #000; width: 20px; height: 1px; line-height: 24px; text-align: center; content: "";}
 .aboutPageRight { position: relative; margin: 0 0 30px; text-align: left; padding-left: 50px; }
 .aboutPageRightInner { width: 460px; position: relative; display: inline-block; }
@@ -1166,8 +1171,8 @@ padding: 8px 12px !important; background: #fff; font-family: 'Poppins-Regular'; 
 .missionInner { padding: 0; }
 .missionInner  h2 {  color: #000;  font-size: 42px; line-height: 56px; margin-bottom: 20px; font-family: 'DMSans-Bold';
 -webkit-font-smoothing: antialiased; position: relative; z-index: 1;}
-.missionInner h4 { font-family: 'Poppins-Medium'; font-size: 18px; line-height: 25px; color: #000; margin: 0 0 15px; }
-.missionInner p { margin: 0 0 30px; font-size: 16px; line-height: 22px; font-family: 'Poppins-Light'; }
+.missionInner h4 { font-family: 'Poppins-Medium'; font-size: 18px; line-height: 24px; color: #000; margin: 0 0 15px; }
+.missionInner p { margin: 0 0 30px; font-size: 16px; line-height: 21.3px; font-family: 'Poppins-Light'; }
 /* END missionMain */
 
 

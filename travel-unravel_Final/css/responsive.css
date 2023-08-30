@@ -143,7 +143,7 @@
     .flightRightDataInner ul li:nth-child(3) { width: calc(40% - 16px); }
     .accordionBodyInner { width: 100%; }
     .accordionList ul li:nth-child(2) { width: calc(40% - 15px); }
-    .banner { height: 650px; }
+    .banner { height: 750px; }
     .bannerInner_3, .dateInner_3 { width: 50%; }
     .bannerBtn.bannerBtn_3 { width: 50%; }
     .bannerBtn_3 .btn { height: 60px; line-height: 60px; border-radius: 0 3px 3px 0; }
@@ -354,13 +354,16 @@
     .users .otp .form-control { width: 36px; height: 36px; }
     .users { padding: 40px 20px; padding-bottom: 70px; }
 
-
+    /* START BannerForm */
     .dateInner { width: 50%; }
     .banner { height: auto; }
     .bannerFormInner { width: 100%; }
     .bannerForm .form-control { height: 45px; }
     .bannerBtn .btn { line-height: 20px; height: 45px; }
-    
+    .bannerForm .error {font-size: 12px;}
+    .bannerFormAll:last-child .bannerForm .error {min-width: 280px;}
+    /* END BannerForm */
+
     .passEco_dropBox { top: 55px; right: -20px; width: 550px; padding: 15px; }
     .drop_box1 p, .passEco_drop2 ul li { font-size: 14px; }
     .passEco_dropBox > div { gap: 14px; }
@@ -386,6 +389,7 @@
     .contactLeft { padding: 30px 15px 30px; }
     .contactAddress { padding: 40px 0 20px; }
     .contactAddress ul li { width: 100%; margin: 0 0 30px; }
+
 }
 
 @media (max-width: 575px) {
@@ -486,7 +490,7 @@
     .bannerAreaInner h1:before { width: 175px; height: 60px; }
     .bannerAreaInner > p { font-size: 22px; line-height: 30px; margin-bottom: 15px; }
     .bannerRadio .radioCustom { margin-bottom: 4px; }
-    .bannerArea { padding: 0 0 30px; }
+    .bannerArea { padding: 0 0 50px; }
     .navbar-light .navbar-toggler { padding: 2px 5px; }
     .newsletterRight h2:before { display: none; }
     .newsletterRight { padding-top: 28px; padding-bottom: 40px; }

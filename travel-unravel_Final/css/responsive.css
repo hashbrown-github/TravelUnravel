@@ -360,8 +360,8 @@
     .bannerFormInner { width: 100%; }
     .bannerForm .form-control { height: 45px; }
     .bannerBtn .btn { line-height: 20px; height: 45px; }
-    .bannerForm .error {font-size: 12px;}
-    .bannerFormAll:last-child .bannerForm .error {min-width: 280px;}
+    .bannerForm .error {font-size: 11px;}
+    .bannerFormAll:last-child .bannerForm .error {min-width: 270px;}
     /* END BannerForm */
 
     .passEco_dropBox { top: 55px; right: -20px; width: 550px; padding: 15px; }

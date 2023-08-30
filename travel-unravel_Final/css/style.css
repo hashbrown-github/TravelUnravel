@@ -261,9 +261,10 @@ position: absolute; background: #fff; z-index: 999; font-size: 20px; right: 10px
 .bannerFromTo .input-group-text .material-symbols-outlined.close.location_on:before { content: "\e0c8"; font-family: 'Material Symbols Outlined'; font-weight: 400;
 position: absolute; background: #fff; z-index: 999; font-size: 20px; right: 10px; }
 
-.bannerForm .error {font-size: 13px;color: #fff;position: absolute;left: 0;bottom: -30px;font-family: 'Poppins-Medium';text-align: left;min-width: 270px;background: #d4121d;padding: 3px 10px;border-radius: 2px;}
-.dateInner .error { bottom: -30px; min-width: 270px; }
-.bannerFormAll:last-child .bannerForm .error { bottom: -30px; min-width: 300px; }
+.bannerForm .error {font-size: 12px;color: #fff;position: absolute;left: 0;bottom: -30px;font-family: 'Poppins-Regular'; font-weight: normal; text-align: left;min-width: 260px;
+background: #d4121d;padding: 3px 10px;border-radius: 2px;}
+.dateInner .error { bottom: -30px; min-width: 260px; }
+.bannerFormAll:last-child .bannerForm .error { bottom: -30px; min-width: 290px; }
 
 
 .datepicker { padding: 4px; width: 250px; }
@@ -1094,18 +1095,22 @@ text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; 
 .terms h2 { color: #000; font-size: 42px; line-height: 56px; margin: 0 0 30px; font-family: 'DMSans-Bold'; position: relative; }
 .termsInner { margin: 0 0 50px; display: inline-block; width: 100%; }
 .termsInner:last-child { margin: 0; }
-.termsInner h3 { color: #000; font-size: 30px; line-height: 40px;margin: 0 0 15px; font-family: 'Poppins-Medium'; }
+.termsInner h3 { color: #000; font-size: 30px; line-height: 40px;margin: 0 0 30px; font-family: 'Poppins-Medium'; }
 .termsInner h4 { color: #000; font-size: 20px; line-height: 26.6px; margin: 0 0 15px; font-family: 'Poppins-Medium'; }
 .termsInner h5 { color: #000; font-size: 16px; line-height: 21.3px; margin: 0 0 15px; font-family: 'Poppins-Medium'; }
 .termsInner p { color: #000; font-size: 15px; line-height: 20px; margin: 0 0 25px; font-family: 'Poppins-Light'; }
-.termsInner ul li h5 { color: #000; font-size: 15px; line-height: 20px; margin: 0 0 15px; }
+.termsInner ul li h5 { color: #000; font-size: 15px; line-height: 20px; margin: 0 0 15px; font-family: 'Poppins-Light'; }
 .termsInner ul li p { margin: 0 0 15px; }
 .termsInner p:last-child { margin: 0; }
 .termsInner ul { margin: 10px 0 10px; padding-left: 35px; display: inline-block; width: 100%; }
 .termsInner ul li { list-style: none; margin: 0 0 15px; position: relative; font-size: 15px; line-height: 20px; color: #000; font-family: 'Poppins-Light';}
-.termsInner ul li::before { background: #000; content: ""; left: -30px; position: absolute; top: 11px; width: 20px; height: 1px;}
+.termsInner ul li::before { background: #000; content: ""; left: -30px; position: absolute; top: 10px; width: 20px; height: 1px;}
 .termsInner ul:last-child li:last-child { margin: 0;}
-.termsInner strong { font-family: 'Poppins-SemiBold';}
+.termsInner strong { font-family: 'Poppins-Regular'; font-weight: normal; }
+.termsInner .table { margin: 0 0 20px; }
+.termsInner .table td p { margin: 0 0 10px; }
+.termsInner .table td p:last-child { margin: 0; }
+.termsInner .table td { padding: 20px 15px; vertical-align: middle; border-top: 1px solid #eeeef0; font-size: 15px; line-height: 20px; color: #000; font-family: 'Poppins-Light';}
 /* END termsMain */
 
 

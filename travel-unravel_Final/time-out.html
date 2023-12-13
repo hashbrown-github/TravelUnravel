@@ -13,6 +13,7 @@
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/mobiscroll.jquery.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
 </head>
@@ -52,12 +53,12 @@
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">About Us</a>
+							<a class="nav-link" href="about_us.html">About Us</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="contact_us.html">Contact Us</a>
 						</li>
-						<!-- <li class="nav-item nav-itemBtn">
+						<li class="nav-item nav-itemBtn">
 							<a class="nav-link btn" href="login-with-email.html"><span class="material-symbols-outlined">person</span>Login</a>
 						</li>
 						<li class="nav-item nav-itemBtn" style="display: none;">
@@ -66,7 +67,7 @@
 									<img src="images/user_img.jpg" alt="User Profile" loading="lazy" />
 								</div>
 							</a>
-						</li> -->
+						</li>
 					</ul>
 					<div class="mobile-nav">
 						<div class="b-nav">
@@ -129,10 +130,10 @@
 									</div>
 								</div>
 								<div class="accordion-item">
-									<a href="#"><h2 class="accordion-header">About Us</h2></a>
+									<a href="about_us.html"><h2 class="accordion-header">About Us</h2></a>
 								</div>
 								<div class="accordion-item">
-									<a href="#"><h2 class="accordion-header">Contact Us</h2></a>
+									<a href="contact_us.html"><h2 class="accordion-header">Contact Us</h2></a>
 								</div>
 							</div>
 						</div>
@@ -154,7 +155,6 @@
 	<!-- END header -->
 </section>
 <!-- END banner -->
-
 
 
 <!-- START bannerPageArea -->
@@ -202,18 +202,22 @@
 								<span class="error" style="display: none;">Please enter destination airport / city.</span>
 							</div>
 						</div>
-						<div class="dateInner">
+						<div class="dateTwoOuter">
 							<div class="form-group">
-								<input type="date" class="form-control" name="date" id="datepicker" placeholder="DD/MM/YY" />
+								<div id="demo-start-end"></div>
+								<div class="dateTwoInner">
+									<label>
+										<input class="form-control" id="demo-start" mbsc-input data-input-style="outline" data-label-style="stacked" placeholder="mm/dd/yyyy" />
+									</label>
+									<label>
+										<input class="form-control" id="demo-end" mbsc-input data-input-style="outline" data-label-style="stacked" placeholder="mm/dd/yyyy" />
+									</label>
+								</div>
 								<span class="error" style="display: none;">Please select a departure date.</span>
-							</div>
-						</div>
-						<div class="dateInner">
-							<div class="form-group">
-								<input type="date" class="form-control" name="date" id="datepicker2" placeholder="DD/MM/YY" />
 								<span class="error" style="display: none;">Please select a return date.</span>
 							</div>
 						</div>
+
 		
 						<div class="bannerFormInner">
 							<div class="form-control p-0">
@@ -270,7 +274,7 @@
 							<span class="error" style="display: none;">Please choose a travel class.</span>
 						</div>
 						<div class="bannerBtn">
-							<a href="#" class="btn btnTheme" data-bs-toggle="modal" data-bs-target="#waitingModal">Search</a>
+							<a class="btn btnTheme" data-bs-toggle="modal" data-bs-target="#waitingModal">Search</a>
 						</div>
 					</div>
 				</div>
@@ -299,18 +303,22 @@
 								<span class="error" style="display: none;">Please enter destination airport / city.</span>
 							</div>
 						</div>
+
 						<div class="dateInner">
 							<div class="form-group">
-								<input type="date" class="form-control" name="date" id="datepicker" placeholder="DD/MM/YY" />
+								<input type="date" class="form-control" name="date" id="datepicker2" placeholder="DD/MM/YY" />
 								<span class="error" style="display: none;">Please select a departure date.</span>
 							</div>
-						</div>
+						</div> 
 						<div class="dateInner">
 							<div class="form-group">
 								<input type="date" class="form-control" name="date" id="datepicker2" placeholder="DD/MM/YY" />
 								<span class="error" style="display: none;">Please select a return date.</span>
 							</div>
-						</div>
+						</div> 
+
+
+
 		
 						<div class="bannerFormInner">
 							<div class="form-control p-0">
@@ -367,7 +375,7 @@
 							<span class="error" style="display: none;">Please choose a travel class.</span>
 						</div>
 						<div class="bannerBtn">
-							<a href="#" class="btn btnTheme" data-bs-toggle="modal" data-bs-target="#waitingModal">Search</a>
+							<a class="btn btnTheme" data-bs-toggle="modal" data-bs-target="#waitingModal">Search</a>
 						</div>
 					</div>
 				</div>
@@ -383,7 +391,7 @@
 						</div>
 						<div class="bannerInner_3">
 							<div class="form-group">
-								<input class="form-control" placeholder="Arrival airport" type="text" name="sub_email">
+								<input class="form-control" placeholder="Arrival airport" type="text" />
 								<span class="error" style="display: none;">Please enter destination airport / city.</span>
 							</div>
 						</div>
@@ -391,6 +399,7 @@
 						<div class="dateInner dateInner_3">
 							<div class="form-group">
 								<input type="date" class="form-control" name="date" id="datepicker5" placeholder="Departing" />
+								<span class="error" style="display: none;">Please select a departure date.</span>
 							</div>
 						</div>
 		
@@ -448,24 +457,29 @@
 							<span class="error">Please specify the number of passengers.</span>
 							<span class="error" style="display: none;">Please choose a travel class.</span>
 						</div>
+
 						<div class="bannerInner_3 departure">
 							<div class="form-group">
-								<input class="form-control" placeholder="Departure airport" type="text" name="sub_email">
+								<input class="form-control" placeholder="Departure airport" type="text" />
+								<span class="error">Please enter departure airport / city.</span>
 							</div>
 						</div>
+						
 						<div class="bannerInner_3">
 							<div class="form-group">
-								<input class="form-control" placeholder="Arrival airport" type="text" name="sub_email">
+								<input class="form-control" placeholder="Arrival airport" type="text" />
+								<span class="error" style="display: none;">Please enter destination airport / city.</span>
 							</div>
 						</div>
 						<div class="dateInner dateInner_3">
 							<div class="form-group">
 								<input type="date" class="form-control" name="date" id="datepicker5" placeholder="Departing" />
+								<span class="error" style="display: none;">Please select a return date.</span>
 							</div>
 						</div>
 			
 						<div class="bannerBtn bannerBtn_3">
-							<a href="#" class="btn btnTheme">Search</a>
+							<a class="btn btnTheme">Search</a>
 						</div>
 					
 					</div>
@@ -1090,15 +1104,15 @@
 						<h3>Quick Links</h3>
 						<ul>
 							<li><a href="about_us.html">About Us</a></li>
-							<li><a href="#">Disclaimer </a></li>
+							<li><a href="disclaimer.html">Disclaimer </a></li>
 							<li><a href="faq.html">FAQs</a></li>
-							<li><a href="#">Why Travel with Us? </a></li>
-							<li><a href="#">Self Payment</a></li>
-							<li><a href="#">Sitemap</a></li>
+							<li><a href="why-travel-with-us.html">Why Travel with Us? </a></li>
+							<li><a href="javascript:void(0);">Self Payment</a></li>
+							<li><a href="javascript:void(0);">Sitemap</a></li>
 						</ul>
 						<h3>Travel Partner</h3>
 						<ul>
-							<li><a href="#">Carbon Neutral Britain</a></li>
+							<li><a href="travel_partner.html">Carbon Neutral Britain</a></li>
 						</ul>
 					</div>
 				</div>
@@ -1111,7 +1125,7 @@
 							<li><a href="data_protection_policy.html">Data Protection Policy</a></li>
 							<li><a href="privacy_policy.html">Privacy Policy</a></li>
 							<li><a href="cookies_policy.html">Cookies Policy</a></li>
-							<li><a href="#">Travel Partner</a></li>
+							<li><a href="travel_partner.html">Travel Partner</a></li>
 						</ul>
 					</div>
 				</div>
@@ -1286,9 +1300,38 @@ $('section.banner').hide();
 	$(window).on('load', function() {
 		$('#myModal').modal('show');
 	});
-  </script>
-  <!-- END Modal Show on window load -->
+</script>
+<!-- END Modal Show on window load -->
 
+<!-- START daterange -->
+<script src="js/mobiscroll.jquery.min.js"></script>
+<script>
+	$(function () {
+		// Mobiscroll Range initialization
+		$('#demo-start-end').mobiscroll().datepicker({
+			controls: ['calendar'],     // More info about controls: https://docs.mobiscroll.com/5-28-0/range#opt-controls
+			select: 'range',            // More info about select: https://docs.mobiscroll.com/5-28-0/range#methods-select
+			startInput: '#demo-start',  // More info about startInput: https://docs.mobiscroll.com/5-28-0/range#opt-startInput
+			endInput: '#demo-end',       // More info about endInput: https://docs.mobiscroll.com/5-28-0/range#opt-endInput
+			pages: 2,
+			firstSelectDay: 2,
+			selectSize: 10,
+			showOuterDays: true,
+			min: new Date()
+		});
+	});
+</script>
+<script>
+	var now = new Date(),
+		myRange = $('#picker').mobiscroll().datepicker({
+			controls: ['calendar'],
+			min: new Date(),
+		}).mobiscroll('getInst');
+	$('#today').on('click', function () {
+		myRange.setVal([now, now]);
+	});
+</script>
+<!-- END daterange -->
 
 
 </body>

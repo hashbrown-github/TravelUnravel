@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="csrf-token" content="wvpCAxAP4XAMZjJ94zyhGhQdCdgxZY0MxDMHUzr7">
@@ -20,9 +20,10 @@
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/mobiscroll.jquery.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
-</head>
+  </head>
 <body>
 
 <!-- START banner -->
@@ -60,12 +61,12 @@
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">About Us</a>
+							<a class="nav-link" href="about_us.html">About Us</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="contact_us.html">Contact Us</a>
 						</li>
-						<!-- <li class="nav-item nav-itemBtn">
+						<li class="nav-item nav-itemBtn">
 							<a class="nav-link btn" href="login-with-email.html"><span class="material-symbols-outlined">person</span>Login</a>
 						</li>
 						<li class="nav-item nav-itemBtn" style="display: none;">
@@ -74,13 +75,13 @@
 									<img src="images/user_img.jpg" alt="User Profile" loading="lazy" />
 								</div>
 							</a>
-						</li> -->
+						</li>
 					</ul>
 					<div class="mobile-nav">
 						<div class="b-nav">
 							<div class="accordion" id="header_menu">
 								<div class="accordion-item">
-									<a href="#" class="active"><h2 class="accordion-header">Home</h2></a>
+									<a href="index.html" class="active"><h2 class="accordion-header">Home</h2></a>
 								</div>
 								<div class="accordion-item">
 									<h2 class="accordion-header" id="headingOne">
@@ -137,10 +138,10 @@
 									</div>
 								</div>
 								<div class="accordion-item">
-									<a href="#"><h2 class="accordion-header">About Us</h2></a>
+									<a href="about_us.html"><h2 class="accordion-header">About Us</h2></a>
 								</div>
 								<div class="accordion-item">
-									<a href="#"><h2 class="accordion-header">Contact Us</h2></a>
+									<a href="contact_us.html"><h2 class="accordion-header">Contact Us</h2></a>
 								</div>
 							</div>
 						</div>
@@ -160,6 +161,7 @@
 		</div>
 	</header>
 	<!-- END header -->
+
 	<!-- START bannerArea -->
 	<div class="bannerArea">
 		<div class="container">
@@ -182,7 +184,9 @@
 						</label>
 					</div>
 				</div>
-
+				<div class="clearBtn">
+					<span>Clear Search</span> 
+				</div>
 				<div class="bannerFormAll">
 					<div class="bannerForm">
 						<div class="bannerFromTo">
@@ -207,19 +211,22 @@
 								<span class="error" style="display: none;">Please enter destination airport / city.</span>
 							</div>
 						</div>
-						<div class="dateInner">
+						<div class="dateTwoOuter">
 							<div class="form-group">
-								<input type="date" class="form-control" name="date" id="datepicker" placeholder="DD/MM/YY" />
+								<div id="demo-start-end"></div>
+								<div class="dateTwoInner">
+									<label>
+										<input class="form-control" id="demo-start" mbsc-input data-input-style="outline" data-label-style="stacked" placeholder="mm/dd/yyyy" />
+									</label>
+									<label>
+										<input class="form-control" id="demo-end" mbsc-input data-input-style="outline" data-label-style="stacked" placeholder="mm/dd/yyyy" />
+									</label>
+								</div>
 								<span class="error" style="display: none;">Please select a departure date.</span>
-							</div>
-						</div>
-						<div class="dateInner">
-							<div class="form-group">
-								<input type="date" class="form-control" name="date" id="datepicker2" placeholder="DD/MM/YY" />
 								<span class="error" style="display: none;">Please select a return date.</span>
 							</div>
 						</div>
-		
+
 						<div class="bannerFormInner">
 							<div class="form-control p-0">
 								<div class="passEco_dropdown">
@@ -275,7 +282,7 @@
 							<span class="error" style="display: none;">Please choose a travel class.</span>
 						</div>
 						<div class="bannerBtn">
-							<a href="#" class="btn btnTheme" data-bs-toggle="modal" data-bs-target="#waitingModal">Search</a>
+							<a class="btn btnTheme" data-bs-toggle="modal" data-bs-target="#waitingModal">Search</a>
 						</div>
 					</div>
 				</div>
@@ -306,17 +313,14 @@
 						</div>
 						<div class="dateInner">
 							<div class="form-group">
-								<input type="date" class="form-control" name="date" id="datepicker" placeholder="DD/MM/YY" />
+								<div id="today"></div>
+								<label>
+									<input  type="text" class="form-control" id="picker" placeholder="mm/dd/yyyy" />
+								</label>
 								<span class="error" style="display: none;">Please select a departure date.</span>
 							</div>
 						</div>
-						<div class="dateInner">
-							<div class="form-group">
-								<input type="date" class="form-control" name="date" id="datepicker2" placeholder="DD/MM/YY" />
-								<span class="error" style="display: none;">Please select a return date.</span>
-							</div>
-						</div>
-		
+
 						<div class="bannerFormInner">
 							<div class="form-control p-0">
 								<div class="passEco_dropdown">
@@ -372,7 +376,7 @@
 							<span class="error" style="display: none;">Please choose a travel class.</span>
 						</div>
 						<div class="bannerBtn">
-							<a href="#" class="btn btnTheme" data-bs-toggle="modal" data-bs-target="#waitingModal">Search</a>
+							<a class="btn btnTheme" data-bs-toggle="modal" data-bs-target="#waitingModal">Search</a>
 						</div>
 					</div>
 				</div>
@@ -476,29 +480,20 @@
 						</div>
 			
 						<div class="bannerBtn bannerBtn_3">
-							<a href="#" class="btn btnTheme">Search</a>
+							<a class="btn btnTheme">Search</a>
 						</div>
 					
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>
 	<!-- END bannerArea -->
+
 </section>
 <!-- END banner -->
 
-
-<section class="index_sec1">
-	<div class="container">
-		<ul>
-			<li><img src="images/support.svg" alt="Support" loading="lazy" /><p>24x7 Customer Support</p></li>
-			<li><img src="images/quality.svg" alt="Quality" loading="lazy" /><p>Quality Assured</p></li>
-			<li><img src="images/protected.svg" alt="Protected" loading="lazy" /><p>TTA & ATOL Protected</p></li>
-			<li><img src="images/secure.svg" alt="Secure" loading="lazy" /><p> Easy and Secure Bookings</p></li>
-		</ul>
-	</div>
-</section>
 
 <section class="index_sec2">
 	<div class="container">
@@ -513,14 +508,14 @@
 		<div class="index_sec22">
 			<ul>
 				<li>
-					<a href="#">
+					<a href="javascript:void(0);">
 						<div class="img_box"> 
 							<img src="images/card-img-1.jpg" alt="Sydney" loading="lazy" />
 						</div>
 						<div class="content_box">
 							<div>
 								<h3>Sydney</h3>
-								<span>$548</span>
+								<span>£548</span>
 							</div>
 							<div>
 								<p>Tue, Jul 20 - Fri, Jul 23</p>
@@ -530,14 +525,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="javascript:void(0);">
 						<div class="img_box">
 							<img src="images/card-img-2.jpg" alt="Sydney" loading="lazy" />
 						</div>
 						<div class="content_box">
 							<div>
 								<h3>Sydney</h3>
-								<span>$548</span>
+								<span>£548</span>
 							</div>
 							<div>
 								<p>Tue, Jul 20 - Fri, Jul 23</p>
@@ -547,14 +542,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="javascript:void(0);">
 						<div class="img_box">
 							<img src="images/card-img-3.jpg" alt="Sydney" loading="lazy" />
 						</div>
 						<div class="content_box">
 							<div>
 								<h3>Sydney</h3>
-								<span>$548</span>
+								<span>£548</span>
 							</div>
 							<div>
 								<p>Tue, Jul 20 - Fri, Jul 23</p>
@@ -564,14 +559,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="javascript:void(0);">
 						<div class="img_box">
 							<img src="images/card-img-4.jpg" alt="Sydney" loading="lazy" />
 						</div>
 						<div class="content_box">
 							<div>
 								<h3>Sydney</h3>
-								<span>$548</span>
+								<span>£548</span>
 							</div>
 							<div>
 								<p>Tue, Jul 20 - Fri, Jul 23</p>
@@ -581,14 +576,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="javascript:void(0);">
 						<div class="img_box">
 							<img src="images/card-img-4.jpg" alt="Sydney" loading="lazy" />
 						</div>
 						<div class="content_box">
 							<div>
 								<h3>Sydney</h3>
-								<span>$548</span>
+								<span>£548</span>
 							</div>
 							<div>
 								<p>Tue, Jul 20 - Fri, Jul 23</p>
@@ -598,14 +593,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="javascript:void(0);">
 						<div class="img_box">
 							<img src="images/card-img-3.jpg" alt="Sydney" loading="lazy" />
 						</div>
 						<div class="content_box">
 							<div>
 								<h3>Sydney</h3>
-								<span>$548</span>
+								<span>£548</span>
 							</div>
 							<div>
 								<p>Tue, Jul 20 - Fri, Jul 23</p>
@@ -615,14 +610,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="javascript:void(0);">
 						<div class="img_box">
 							<img src="images/card-img-2.jpg" alt="Sydney" loading="lazy" />
 						</div>
 						<div class="content_box">
 							<div>
 								<h3>Sydney</h3>
-								<span>$548</span>
+								<span>£548</span>
 							</div>
 							<div>
 								<p>Tue, Jul 20 - Fri, Jul 23</p>
@@ -632,14 +627,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="javascript:void(0);">
 						<div class="img_box"> 
 							<img src="images/card-img-1.jpg" alt="Sydney" loading="lazy" />
 						</div>
 						<div class="content_box">
 							<div>
 								<h3>Sydney</h3>
-								<span>$548</span>
+								<span>£548</span>
 							</div>
 							<div>
 								<p>Tue, Jul 20 - Fri, Jul 23</p>
@@ -653,6 +648,18 @@
 	</div>
 </section>
 
+<section class="index_sec1">
+	<div class="container">
+		<ul>
+			<li><img src="images/support.svg" alt="Support" loading="lazy" /><p>24x7 Customer Support</p></li>
+			<li><img src="images/quality.svg" alt="Quality" loading="lazy" /><p>Quality Assured</p></li>
+			<li><img src="images/protected.svg" alt="Protected" loading="lazy" /><p>TTA & ATOL Protected</p></li>
+			<li><img src="images/secure.svg" alt="Secure" loading="lazy" /><p> Easy and Secure Bookings</p></li>
+		</ul>
+	</div>
+</section>
+
+<!-- 
 <section class="index_sec3">
 	<div class="index_sec31">
 		<ul>
@@ -699,6 +706,8 @@
 		<p>Follow the health and safety measures ad advised by <a href="#">gov.uk</a></p>
 	</div>
 </section>
+-->
+
 
 <section class="index_sec4">
 	<div class="container">
@@ -706,123 +715,123 @@
 			<h2>More Exclusive <span>Deals</span> For Top Destinations</h2>
 			<p>These fares are mentioned on the basis of historical data and cannot be guaranteed. Please go through all the terms and conditions.</p>
 			<ul>
-				<li><a href="#"><p>Outdoor Adventures</p></a></li>
-				<li class="active"><a href="#"><p>Beach Destination</p></a></li>
-				<li><a href="#"><p>Unique Destination</p></a></li>
-				<li><a href="#"><p>Mountain Cabins</p></a></li>
-				<li><a href="#"><p>Popular Destinations</p></a></li>
+				<li><a href="javascript:void(0);"><p>Outdoor Adventures</p></a></li>
+				<li class="active"><a href="javascript:void(0);"><p>Beach Destination</p></a></li>
+				<li><a href="javascript:void(0);"><p>Unique Destination</p></a></li>
+				<li><a href="javascript:void(0);"><p>Mountain Cabins</p></a></li>
+				<li><a href="javascript:void(0);"><p>Popular Destinations</p></a></li>
 			</ul> 
 		</div>
 		<div class="index_sec42">
 			<ul>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<span>$1567</span>
+					<a href="javascript:void(0);">
+						<span>£1567</span>
 						<h3>Paris</h3>
 						<p>Tue, Jul 20 - Fri, Jul 23</p>
 					</a>
@@ -874,7 +883,7 @@
 						<figure class="greatimg_2"><img class="img-fluid" src="images/emirates_1.jpg" alt="emirates" loading="lazy" /></figure>
 						<div class="greatTravelARea">
 							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
+							<h5>£332</h5>
 							<ul>
 								<li>Monday | Jan 02, 2023</li>
 								<li>Wednesday | Jan 04, 2023</li>
@@ -882,7 +891,7 @@
 						</div>
 						<div class="greatTravelARea">
 							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
+							<h5>£332</h5>
 							<ul>
 								<li>Monday | Jan 02, 2023</li>
 								<li>Wednesday | Jan 04, 2023</li>
@@ -890,35 +899,7 @@
 						</div>
 						<div class="greatTravelARea">
 							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
-							<ul>
-								<li>Monday | Jan 02, 2023</li>
-								<li>Wednesday | Jan 04, 2023</li>
-							</ul>
-						</div>
-					</div>
-					<div class="greatTravel_Inner">
-						<figure class="greatimg_1"><img class="img-fluid" src="images/emirates.png" alt="emirates" loading="lazy" /></figure>
-						<figure class="greatimg_2"><img class="img-fluid" src="images/emirates_1.jpg" alt="emirates" loading="lazy" /></figure>
-						<div class="greatTravelARea">
-							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
-							<ul>
-								<li>Monday | Jan 02, 2023</li>
-								<li>Wednesday | Jan 04, 2023</li>
-							</ul>
-						</div>
-						<div class="greatTravelARea">
-							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
-							<ul>
-								<li>Monday | Jan 02, 2023</li>
-								<li>Wednesday | Jan 04, 2023</li>
-							</ul>
-						</div>
-						<div class="greatTravelARea">
-							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
+							<h5>£332</h5>
 							<ul>
 								<li>Monday | Jan 02, 2023</li>
 								<li>Wednesday | Jan 04, 2023</li>
@@ -930,7 +911,7 @@
 						<figure class="greatimg_2"><img class="img-fluid" src="images/emirates_1.jpg" alt="emirates" loading="lazy" /></figure>
 						<div class="greatTravelARea">
 							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
+							<h5>£332</h5>
 							<ul>
 								<li>Monday | Jan 02, 2023</li>
 								<li>Wednesday | Jan 04, 2023</li>
@@ -938,7 +919,7 @@
 						</div>
 						<div class="greatTravelARea">
 							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
+							<h5>£332</h5>
 							<ul>
 								<li>Monday | Jan 02, 2023</li>
 								<li>Wednesday | Jan 04, 2023</li>
@@ -946,7 +927,7 @@
 						</div>
 						<div class="greatTravelARea">
 							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
+							<h5>£332</h5>
 							<ul>
 								<li>Monday | Jan 02, 2023</li>
 								<li>Wednesday | Jan 04, 2023</li>
@@ -958,7 +939,7 @@
 						<figure class="greatimg_2"><img class="img-fluid" src="images/emirates_1.jpg" alt="emirates" loading="lazy" /></figure>
 						<div class="greatTravelARea">
 							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
+							<h5>£332</h5>
 							<ul>
 								<li>Monday | Jan 02, 2023</li>
 								<li>Wednesday | Jan 04, 2023</li>
@@ -966,7 +947,7 @@
 						</div>
 						<div class="greatTravelARea">
 							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
+							<h5>£332</h5>
 							<ul>
 								<li>Monday | Jan 02, 2023</li>
 								<li>Wednesday | Jan 04, 2023</li>
@@ -974,7 +955,35 @@
 						</div>
 						<div class="greatTravelARea">
 							<h4>Delhi to Venice</h4>
-							<h5>$332</h5>
+							<h5>£332</h5>
+							<ul>
+								<li>Monday | Jan 02, 2023</li>
+								<li>Wednesday | Jan 04, 2023</li>
+							</ul>
+						</div>
+					</div>
+					<div class="greatTravel_Inner">
+						<figure class="greatimg_1"><img class="img-fluid" src="images/emirates.png" alt="emirates" loading="lazy" /></figure>
+						<figure class="greatimg_2"><img class="img-fluid" src="images/emirates_1.jpg" alt="emirates" loading="lazy" /></figure>
+						<div class="greatTravelARea">
+							<h4>Delhi to Venice</h4>
+							<h5>£332</h5>
+							<ul>
+								<li>Monday | Jan 02, 2023</li>
+								<li>Wednesday | Jan 04, 2023</li>
+							</ul>
+						</div>
+						<div class="greatTravelARea">
+							<h4>Delhi to Venice</h4>
+							<h5>£332</h5>
+							<ul>
+								<li>Monday | Jan 02, 2023</li>
+								<li>Wednesday | Jan 04, 2023</li>
+							</ul>
+						</div>
+						<div class="greatTravelARea">
+							<h4>Delhi to Venice</h4>
+							<h5>£332</h5>
 							<ul>
 								<li>Monday | Jan 02, 2023</li>
 								<li>Wednesday | Jan 04, 2023</li>
@@ -1011,7 +1020,7 @@
 </div>
 <!--========= POPUP AFTER SEARCH DESTINATION END ========-->
 
-
+ind a better deal, we w
 <!-- START FOOTER -->
 <footer class="footer">
 	<div class="container">
@@ -1035,15 +1044,15 @@
 						<h3>Quick Links</h3>
 						<ul>
 							<li><a href="about_us.html">About Us</a></li>
-							<li><a href="#">Disclaimer </a></li>
+							<li><a href="disclaimer.html">Disclaimer </a></li>
 							<li><a href="faq.html">FAQs</a></li>
-							<li><a href="#">Why Travel with Us? </a></li>
-							<li><a href="#">Self Payment</a></li>
-							<li><a href="#">Sitemap</a></li>
+							<li><a href="why-travel-with-us.html">Why Travel with Us? </a></li>
+							<li><a href="javascript:void(0);">Self Payment</a></li>
+							<li><a href="javascript:void(0);">Sitemap</a></li>
 						</ul>
 						<h3>Travel Partner</h3>
 						<ul>
-							<li><a href="#">Carbon Neutral Britain</a></li>
+							<li><a href="travel_partner.html">Carbon Neutral Britain</a></li>
 						</ul>
 					</div>
 				</div>
@@ -1056,7 +1065,7 @@
 							<li><a href="data_protection_policy.html">Data Protection Policy</a></li>
 							<li><a href="privacy_policy.html">Privacy Policy</a></li>
 							<li><a href="cookies_policy.html">Cookies Policy</a></li>
-							<li><a href="#">Travel Partner</a></li>
+							<li><a href="travel_partner.html">Travel Partner</a></li>
 						</ul>
 					</div>
 				</div>
@@ -1150,19 +1159,7 @@
 </script> 
 <!-- START bootstrap-slider.min -->
 
-<!--======= FIXED HEADER ON SCROLL START
-<script>
-$(window).scroll(function() {             // this will work when your window scrolled.
-    var height = $(window).scrollTop();   //getting the scrolling height of window
-	if(height  > 2) {
-	    $("header").addClass('fixed_header');
-	} 
-	else {
-	    $("header").removeClass('fixed_header');
-	}
-});
-</script>
-<!--====== FIXED HEADER ON SCROLL END =======-->
+
 
 <!--==== PASSENGER/CLASS DROPDOWN SCRIPT ====-->
 <script>
@@ -1215,25 +1212,6 @@ $(document).click(function(e) {
 <!-- END radioTab -->
 
 
-<!-- START Date -->
-<script>
-	$(function(){
-	  var dtToday = new Date();
-	  var month = dtToday.getMonth() + 1;
-	  var day = dtToday.getDate();
-	  var year = dtToday.getFullYear();
-		if(month < 10)
-		month = '0' + month.toString();
-		if(day < 10)
-		day = '0' + day.toString();
-	  var minDate= year + '-' + month + '-' + day;
-	  // $('#datepicker').attr('min', minDate);
-	  $('#datepicker').attr('min', minDate) + $('#datepicker2').attr('min', minDate) + $('#datepicker3').attr('min', minDate) + $('#datepicker4').attr('min', minDate) + $('#datepicker5').attr('min', minDate) + $('#datepicker6').attr('min', minDate);
-  });
-</script>
-<!-- END Date -->
-
-
 <!-- START tooltips -->
 <script>
 	// Initialize tooltips
@@ -1245,39 +1223,36 @@ $(document).click(function(e) {
 <!-- END tooltips -->
 
 
-<!-- START Scroll -->
-<script>
-	const slider = document.querySelector('.index_sec31 ul');
-	let isDown = false;
-	let startX;
-	let scrollLeft;
 
-	slider.addEventListener('mousedown', (e) => {
-		isDown = true;
-		slider.classList.add('active');
-		startX = e.pageX - slider.offsetLeft;
-		scrollLeft = slider.scrollLeft;
-	});
-	slider.addEventListener('mouseleave', () => {
-		isDown = false;
-		slider.classList.remove('active');
-	});
-	slider.addEventListener('mouseup', () => {
-		isDown = false;
-		slider.classList.remove('active');
-	});
-	slider.addEventListener('mousemove', (e) => {
-		if(!isDown) return;
-		e.preventDefault();
-		const x = e.pageX - slider.offsetLeft;
-		const walk = (x - startX) * 3; //scroll-fast
-		slider.scrollLeft = scrollLeft - walk;
-		console.log(walk);
+<!-- START daterange -->
+<script src="js/mobiscroll.jquery.min.js"></script>
+<script>
+	$(function () {
+		// Mobiscroll Range initialization
+		$('#demo-start-end').mobiscroll().datepicker({
+			controls: ['calendar'],     // More info about controls: https://docs.mobiscroll.com/5-28-0/range#opt-controls
+			select: 'range',            // More info about select: https://docs.mobiscroll.com/5-28-0/range#methods-select
+			startInput: '#demo-start',  // More info about startInput: https://docs.mobiscroll.com/5-28-0/range#opt-startInput
+			endInput: '#demo-end',       // More info about endInput: https://docs.mobiscroll.com/5-28-0/range#opt-endInput
+			pages: 2,
+			firstSelectDay: 2,
+			selectSize: 1,
+			showOuterDays: true,
+			min: new Date()
+		});
 	});
 </script>
-<!-- END Scroll -->
-
-
+<script>
+	var now = new Date(),
+		myRange = $('#picker').mobiscroll().datepicker({
+			controls: ['calendar'],
+			min: new Date(),
+		}).mobiscroll('getInst');
+	$('#today').on('click', function () {
+		myRange.setVal([now, now]);
+	});
+</script>
+<!-- END daterange -->
 
 </body>
 </html>

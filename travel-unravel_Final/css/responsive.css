@@ -19,8 +19,21 @@
     .newsletterRight h2:before { right: -135px; bottom: 7px; width: 280px; height: 130px; }
     .profile_sec1:before { height: 250px; }
 }
+
+@media (max-width: 1400px) { 
+    /* START Travel */
+    .headingTravel h2 { font-size: 40px; line-height: 53.3px; }
+    .travelMissionOuter { gap: 0 25px; }
+    .priceBlockOuter { gap: 0 25px; }
+    .priceBlock {width: 25%;}
+    .howTravelOuter  { gap: 0 25px; }
+    .howTravelInner { width: calc(33% - 18px); padding: 30px;}
+    /* END Travel */
+}
+
+
 @media (max-width: 1366px) {
-    .logIn h2 { font-size: 40px; line-height: 53px; margin-bottom: 15px; }
+    .logIn h2 { font-size: 40px; line-height: 53.3px; margin-bottom: 15px; }
     .users .otp .form-control { width: 40px; height: 40px; }
     .users .otp { gap: 10px 10px; }
     .banner { height: 540px; }
@@ -34,17 +47,17 @@
     .bannerAreaInner > p { margin-bottom: 40px; }
     .index_sec31 ul { gap: 15px; }
     .index_sec31 { width: calc(50% - 30px); margin-right: 30px; }
-    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 40px; line-height: 52px; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 40px; line-height: 53.3px; }
     .index_sec211 h2 span:before { width: 245px; height: 16px; }
     .index_sec2, .index_sec4, .greatTravelMain { padding: 60px 0; }
     .index_sec22 { margin-top: 50px; }
-    .index_sec32 p { font-size: 20px; line-height: 26px; }
-    .index_sec31 ul li p { font-size: 20px; line-height: 26px; }
+    .index_sec32 p { font-size: 20px; line-height: 26.6px; }
+    .index_sec31 ul li p { font-size: 20px; line-height: 26.6px; }
     .index_sec3 { padding: 30px 20px; }
     .index_sec31 ul li { width: 260px; padding: 15px; }
     .index_sec31 ul li img { height: 70px; }
     .newsletterRight { padding: 80px 0 80px 20px; }
-    .newsletterRight h2 { font-size: 38px; line-height: 50px; }
+    .newsletterRight h2 { font-size: 38px; line-height: 50.6px; }
     .newsletterRight h2:before { right: -110px; bottom: 15px; width: 230px; height: 100px; }
     .headingOther h2:before { width: 250px; }
     .error_sec2 img { width: 650px; }
@@ -54,53 +67,89 @@
     .bannerForm .form-control::placeholder { font-size: 14px; }
     .bannerForm .form-control { font-size: 14px; }
     .passEco_dropdown > a { font-size: 14px; }
+
+    /* START Travel */
+    .headingTravel h2 { font-size: 40px; line-height: 53.3px; }
+    .travelBannerAreaInner h1 { font-size: 60px; line-height: 80px; margin: 0 0 20px; }
+    .travelBannerAreaInner h2 { margin: 0 0 20px; }
+    .travelBannerAreaInner img { margin: 0 0 20px; }
+    .priceBlockOuter { gap: 0 30px; }
+    .priceBlock { width: 26%; }
+    .tabAreaHome .nav-tabs li {  min-width: auto; }
+    .tabAreaHome .nav-tabs li a {font-size: 16px; }
+    .joinOuter { gap: 0 50px; }
+    .joinCommon { width: calc(50% - 25px); }
+    /* END Travel */
+
+    /* START comingSoonMain */
+    .comingSoonMain { padding: 70px 0; }
+    .comingSoonInner h2 { font-size: 60px; line-height: 80px; margin: 0 0 30px; }
+    .comingSoonInner p { font-size: 16px; line-height: 21.3px; margin: 0 0 40px; }
+    /* END comingSoonMain */
 }
 
 @media (max-width: 1280px) {
     .bannerAreaInner > p { margin-bottom: 20px; }
     .index_sec2, .index_sec4, .greatTravelMain { padding: 50px 0; }
-    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 38px; line-height: 48px; }
-    .newsletterRight h2 { font-size: 36px; line-height: 46px; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 38px; line-height: 50.6px; }
+    .newsletterRight h2 { font-size: 36px; line-height: 48px; }
     .newsletterRight { padding: 80px 0 80px 10px; }
     .headingOther h2:before { width: 230px; }
-    .index_sec212 p, .newsletterRight p, .headingOther p { line-height: 24px; font-size: 16px; }
+    .index_sec212 p, .newsletterRight p, .headingOther p { font-size: 16px; line-height: 21.6px; }
     .index_sec22 { margin-top: 40px; }
     .index_sec31 ul li { width: 230px; }
     .index_sec31 ul li p { font-size: 18px; line-height: 24px; }
     .index_sec41 ul { margin-top: 30px; }
     .headingOther { margin-bottom: 30px; }
     .index_sec32 p { font-size: 18px; line-height: 24px; }
-    .logIn h2 { font-size: 38px; line-height: 48px; }
+    .logIn h2 { font-size: 38px; line-height: 50.6px; }
     .logIn { margin: 0 0 40px; }
     .users .form-group.formBtn { margin: 40px 0 20px; }
     .logInLeft img { object-position: 20% 0; }
-    .prof_div3 h3 { font-size: 28px; line-height: 38px; }
-    .prof_div61 h4 { font-size: 23px; line-height: 28px; }
+    .prof_div3 h3 { font-size: 28px; line-height: 37.3px; }
+    .prof_div61 h4 { font-size: 23px; line-height: 30.6px; }
     .prof_div3 { margin-bottom: 30px; }
     .prof_div5, .prof_div61 { padding: 40px; }
     .prof_div1 { padding: 30px; padding-bottom: 50px; }
     .error_sec1 { padding: 50px 0; }
     .error_sec2 img { width: 620px; }
-    .error_sec2 h3 { font-size: 28px; line-height: 35px; }
+    .error_sec2 h3 { font-size: 28px; line-height: 37.3px; }
+
+    /* START Travel */
+    .headingTravel h2 { font-size: 38px; line-height: 50.6px; }
+    .priceBlockOuter { gap: 0 20px; }
+    .priceBlock { width: 27%; }
+    /* END Travel */
 }
+
 @media (max-width: 1199px) {
+
+    /* START Travel */
+    .travelBannerAreaInner h1 { font-size: 58px; line-height: 77.3px; }
+    .travelBannerAreaInner h2 { font-size: 30px; line-height: 40px; }
+    .priceBlock { width: 33%; }
+    /* END Travel */
+
     .logInLeft img { object-position: 18%; }
-    .bannerAreaInner h1 { font-size: 58px; line-height: 78px; }
+    .bannerAreaInner h1 { font-size: 58px; line-height: 77.3px; }
     .bannerAreaInner > p { font-size: 30px; line-height: 40px; }
     .navbar-brand>img { width: 220px; }
 
+
     .bannerFromTo { width: 50%; }
-    .dateInner { width: 25%; }
+    .dateInner { width: 50%; }
     .dateInner input { text-align: left; }
     .bannerFormInner { width: 50%; }
     .passEco_dropBox { top: 70px; right: 0; }
     .passEco_dropBox:before { right: 220px; }
-    .bannerBtn .btn { height: 50px; line-height: 50px; border-radius: 0 0 3px 3px; }
-    .bannerBtn { width: 100%; }
-
+    .bannerForm .form-control { height: 50px; }
+    .bannerBtn .btn { font-size: 15px; line-height: 26px; padding: 12px; height: 50px; border-radius: 0; }
+    .bannerBtn { width: 100%; margin: 0 0 30px; }
+    .dateTwoOuter { position: relative; width: 50%; }
     .bannerForm .bannerFromTo:first-child .form-control { border-radius: 0; }
     .bannerForm .bannerFromTo:nth-child(2) .form-control { border-right: none; }
     .bannerFormInner .form-control { border-radius: 0; border-right: none; }
+    .dateTwoInner label:before, .dateInner label:before { top: 16px !important; }
 
     .navbar-nav li { padding: 0 15px; }
     .index_sec212 p { margin-top: 0; }
@@ -108,24 +157,24 @@
     .index_sec22 ul li { width: calc(25% - 15px); }
     .index_sec41 ul { gap: 15px; }
     .index_sec41 ul li p { font-size: 14px; }
-    .newsletterRight h2 { font-size: 34px; line-height: 44px; }
+    .newsletterRight h2 { font-size: 34px; line-height: 45.3px; }
     .siteDetails { margin-right: 20px; }
 
     .profile_sidebar { width: 320px; }
     .profile_content { width: calc(100% - 320px); }
     .prof_div1 { padding: 20px; padding-bottom: 40px; }
     .prof_div1 > div:first-child { width: 70px; height: 70px; }
-    .prof_div3 h3 { font-size: 26px; line-height: 36px; }
+    .prof_div3 h3 { font-size: 26px; line-height: 34.6px; }
     .prof_div3 { margin-bottom: 25px; }
     .prof_div2 ul li a { padding: 10px 25px; }
-    .prof_div61 h4 { font-size: 22px; line-height: 26px; margin-bottom: 25px; }
+    .prof_div61 h4 { font-size: 22px; line-height: 29.3px; margin-bottom: 25px; }
     .prof_div4 { width: 160px; height: 160px; margin-bottom: 30px; }
     .profile_sec1:before { height: 220px; }
     .user_profile { width: 45px; height: 45px; }
     .logoFooter img { width: 220px; }
     .error_sec1 { padding: 40px 0; }
     .error_sec2 img { width: 600px; }
-    .error_sec2 h3 { font-size: 26px; line-height: 32px; }
+    .error_sec2 h3 { font-size: 26px; line-height: 34.6px; }
     .flightSummaryInner ul li:first-child { width: 57%; }
     .flightSummaryInner ul li:nth-child(2) { width: 30%; text-align: left; }
     .img_Plane img { margin: 0 0 5px; }
@@ -138,7 +187,7 @@
     .flightRight { padding-left: 0; }
 
     .baggage img.companyName { width: 30px; margin-right: 5px; }
-    .flightRightDataHead h4 b { font-size: 16px; line-height: 22px; }
+    .flightRightDataHead h4 b { font-size: 16px; line-height: 21.6px; }
     .flightRightDataHead h4 span {font-size: 12px; line-height: 16px; margin-top: 4px; }
     .flightRightDataInner ul li:nth-child(3) { width: calc(40% - 16px); }
     .accordionBodyInner { width: 100%; }
@@ -146,8 +195,7 @@
     .banner { height: 750px; }
     .bannerInner_3, .dateInner_3 { width: 50%; }
     .bannerBtn.bannerBtn_3 { width: 50%; }
-    .bannerBtn_3 .btn { height: 60px; line-height: 60px; border-radius: 0 3px 3px 0; }
-
+    .bannerBtn_3 .btn { border-radius: 0; }
     .bannerFormInner.bannerFormInner_3 { width: 50%; }
 }
 
@@ -168,21 +216,26 @@
     .logInArea a.logo img { width: 200px; }
     .user_profile { width: 40px; height: 40px; }
     .logoFooter img { width: 200px; }
-
-
-}
-
-@media (max-width: 1024px) {
-    .navbar-light .navbar-nav .nav-link { font-size: 18px; }
-    .logInArea a.logo { top: 20px; left: 20px; }
-    .logInLeft img { object-position: 12%; }
 }
 
 @media (max-width: 991px) {
-    .mobile-nav .accordion-item h2 { font-size: 16px; line-height: 22px; color: #000; font-family: 'FuturaPT-Book-Regular'; margin-bottom: 0;
+    /* START Travel */
+    .travelBannerArea { padding: 30px 0 60px; }
+    .travelBannerAreaInner h1 { font-size: 56px; line-height: 75px; }
+    .travelBannerAreaInner h2 { font-size: 28px; line-height: 37.3px; }
+    .travelBannerAreaInner p { padding: 0; }
+    .priceBlock { width: 42%; }
+    
+    .joinLeft h2 { font-size: 22px; line-height: 29.3px; }
+    .joinLeft h3 { font-size: 30px; line-height: 40px; }
+    .joinRight img:first-child { margin-right: 15px; }
+    .joinRight img:nth-child(2) {width: 200px;}
+    /* END Travel */
+
+    .mobile-nav .accordion-item h2 { font-size: 16px; line-height: 21.6px; color: #000; font-family: 'FuturaPT-Book-Regular'; margin-bottom: 0;
     -webkit-font-smoothing: antialiased; display: flex; width: 100%; gap: 5px; }
     .mobile-nav .accordion-item h2 button { background: unset; border: unset; padding: 0; display: flex; align-items: center; width: 100%; 
-    color: #000; font-size: 16px; line-height: 22px; box-shadow: none; }
+    color: #000; font-size: 16px; line-height: 21.6px; box-shadow: none; }
     .mobile-nav .accordion-item h2 button.accordion-button::after { display: none; }
     .mobile-nav .accordion-item h2 button span { vertical-align: middle; margin-left: 5px; }
     .mobile-nav .accordion-item h2 button i { vertical-align: middle; margin-left: 5px; font-size: 15px; }
@@ -200,14 +253,15 @@
     header.profile_header { padding: 0; }
     header.profile_header .profile_header2 { padding: 12px 20px; width: 100%; position: relative; left: 0; right: 0; z-index: 9; transition: .3s all; background: #fff; }
     .collapse.header_menu:not(.show) { display: block; }
-    h2 { font-size: 30px; line-height: 35px; margin: 0 0 10px; }
-    h3 { font-size: 26px; line-height: 31px; }
+    h2 { font-size: 30px; line-height: 40px; margin: 0 0 10px; }
+    h3 { font-size: 26px; line-height: 34.6px; }
     .navbar-light .navbar-toggler:hover, .navbar-light .navbar-toggler:focus { outline: none; }
     .navbar-nav li { border-bottom: 1px solid rgb(0 0 0 / 8%); padding: 0; width: 100%; display: none; }
     .navbar-light .navbar-nav .nav-link { border-radius: 0; color: #111; font-size: 15px; padding: 10px 15px; text-align: right; }
     .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link { color: #000; }
     .navbar-nav li.nav-itemBtn { padding: 0; margin: 0; display: block; border: 0; width: unset; }
-    .navbar-nav li .btn.nav-link { color: #fff; padding: 0; border: none; margin-right: 50px; display: flex; align-items: center; height: 26px; font-size: 18px; line-height: 26px; }
+    .navbar-nav li .btn.nav-link { color: #fff; padding: 0; border: none; margin-right: 50px; display: flex; align-items: center; height: 26px; font-size: 18px; line-height: 24px; }
+    .profile_header .navbar-nav li .btn.nav-link { border: none; }
     .fixed_header .navbar-nav li .btn.nav-link { color: #000; }
     .fixed_header .desk_logo1 { display: none; }
     .fixed_header .desk_logo2 { display: block; }
@@ -228,20 +282,20 @@
     .newsLeft { display: none; }
     .news_1 { width: 100%; }
     
-
     .bannerArea { padding: 30px 0 80px; }
-    .bannerAreaInner h1 { font-size: 56px; line-height: 75px; }
+    .bannerAreaInner h1 { font-size: 56px; line-height: 74.6px; }
     .bannerAreaInner h1:before { width: 230px; height: 78px; }
-    .bannerAreaInner > p { font-size: 28px; line-height: 37px; }
+    .bannerAreaInner > p { font-size: 28px; line-height: 37.3px; }
     
-
     .bannerForm .form-control { height: 50px; }
-    .bannerFromTo { width: 50%; }
     .bannerFromTo .input-group-text { top: 10px; }
     .dateInner input[type="date"]:before { top: 10px; }
     .bannerBtn { width: 100%; }
-    .bannerBtn .btn { font-size: 15px; line-height: 26px; padding: 12px; height: 50px; }
+
     .dateInner span i { top: 5px; }
+    .dateTwoOuter { width: 50%; }
+
+
 
     .index_sec1 { padding: 20px 0; }
     .index_sec1 ul { gap: 15px; }
@@ -254,7 +308,7 @@
     .index_sec22 ul { gap: 30px; }
     .index_sec22 ul li { width: calc(50% - 15px); }
     .index_sec3 { flex-direction: column-reverse; padding: 30px; gap: 30px; }
-    .index_sec32 p { font-size: 17px; line-height: 23px; }
+    .index_sec32 p { font-size: 17px; line-height: 22.6px; }
     .index_sec32 { width: 100%; }
     .index_sec31 { width: 100%; margin: 0; }
     .index_sec31 ul li { width: 250px; }
@@ -273,7 +327,7 @@
     .siteDetails:last-child { margin-bottom: 20px; }
     .logInLeft { width: calc(100% - 400px); }
     .logInOuter { width: 400px; }
-    .logIn h2 { font-size: 36px; line-height: 46px; }
+    .logIn h2 { font-size: 36px; line-height: 48px; }
     .profile_sec1 { padding: 40px 0; }
     .profile_sidebar { width: 260px; padding: 15px; }
     .profile_content { width: calc(100% - 260px); }
@@ -287,7 +341,7 @@
     .prof_div3 { margin-bottom: 20px; }
     .prof_div3 h3 { font-size: 24px; line-height: 34px; }
     .prof_div4 { width: 140px; height: 140px; margin-bottom: 25px; }
-    .prof_div61 h4 { font-size: 20px; line-height: 24px; margin-bottom: 20px; }
+    .prof_div61 h4 { font-size: 20px; line-height: 26.6px; margin-bottom: 20px; }
     .prof_div61 .form_btn { margin-top: 25px; }
     .footerTop { padding: 50px 0 0; }
     .error_sec2 { max-width: 500px; margin: 0 auto; }
@@ -300,8 +354,8 @@
     .priceRadioData ul li.priceListing { font-size: 15px; line-height: 20px; }
     .flightRightDataHead h4 span { float: none; display: block; }
     .filterLeftInner .checkCustom { font-size: 13px; line-height: 18px; }
-    .flightRight .accordion-button { font-size: 14px; line-height: 19px; }
-    .flightRightDataInner ul li h5 { font-size: 18px; line-height: 25px; }
+    .flightRight .accordion-button { font-size: 14px; line-height: 18.6px; }
+    .flightRightDataInner ul li h5 { font-size: 18px; line-height: 24px; }
     .flightRightDataInner { overflow: auto; overflow-x: scroll; white-space: nowrap; }
     .flightRightDataInner ul { min-width: 750px; width: 100%; }
     .accordionBodyContent { overflow: auto; overflow-x: scroll; white-space: nowrap; }
@@ -313,24 +367,40 @@
     .contactAddress { padding: 40px 0 30px; }
 }
 
-@media (max-width: 883px) {
-    .users { padding: 40px 30px; padding-bottom: 70px; }
-}
-
 @media (max-width: 767px) {
-    .logIn h2 { font-size: 35px; line-height: 46px; }
-    .headingOther p { font-size: 16px; line-height: 21px; }
-    h2 { font-size: 28px; line-height: 35px; margin: 0 0 10px 0; }
-    h3 { font-size: 24px; line-height: 29px; }
+    /* START Travel */
+    .travelBannerArea { padding: 20px 0 50px; }
+    .travelBannerAreaInner h1 { font-size: 54px; line-height: 72px; }
+    .travelBannerAreaInner h2 { font-size: 26px; line-height: 34.6px; }
+    .priceBlock { width: 45%; }
+    .headingTravel h2 { font-size: 34px; line-height: 45.3px; }
+    .howTravelOuter { justify-content: center; }
+    .howTravelInner { width: 50%; }
+    .travelMissionMain { padding: 50px 0 30px; }
+    .plansMain { padding: 50px 0 30px; }
+    .howTravelMain { padding: 50px 0 30px; }
+    .joinMain { padding: 40px 0 40px; }
+    .joinOuter {padding: 0;}
+    .joinOuter:before { display: none; }
+    .joinCommon { width: 100%; }
+    .joinLeft { order: 2; text-align: left; }
+    .joinRight { order: 1; margin: 0 0 40px; padding: 0 0 40px; border-bottom: 1px solid #fff; }
+    /* END Travel */
+
+    .logIn h2 { font-size: 35px; line-height: 46.6px; }
+    .headingOther p { font-size: 16px; line-height: 21.6px; }
+    h2 { font-size: 28px; line-height: 37.3px; margin: 0 0 10px 0; }
+    h3 { font-size: 24px; line-height: 32px; }
     .newsletterRight { padding: 60px 0; }
     .newsletterRight p { margin-bottom: 30px; }
     .bannerAreaInner h1 { font-size: 54px; line-height: 72px; }
     .bannerAreaInner h1:before { width: 220px; height: 72px; }
-    .bannerAreaInner > p { font-size: 26px; line-height: 35px; }
+    .bannerAreaInner > p { font-size: 26px; line-height: 34.6px; }
     .bannerArea { padding: 10px 0 60px; }
+
     .index_sec1 ul { gap: 20px; flex-wrap: wrap; }
     .index_sec1 ul li { width: calc(50% - 10px); border: 1px solid #ddd; padding: 15px; border-radius: 3px; }
-    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 34px; line-height: 44px; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 34px; line-height: 45.3px; }
     .index_sec211 h2 span:before { width: 210px; height: 13px; }
     .index_sec2, .index_sec4, .greatTravelMain { padding-top: 30px; padding-bottom: 35px; }
     .index_sec21 { gap: 15px; }
@@ -338,7 +408,7 @@
     .index_sec22 ul { gap: 20px; }
     .index_sec22 ul li { width: calc(50% - 10px); }
     .index_sec3 { gap: 20px; }
-    .index_sec31 ul li p { font-size: 17px; line-height: 23px; }
+    .index_sec31 ul li p { font-size: 17px; line-height: 22.6px; }
     .index_sec31 ul li p span { font-size: 16px; }
     .index_sec31 ul li img { height: 50px; margin-bottom: 30px; }
     .index_sec31 ul li { width: 212px; }
@@ -348,7 +418,7 @@
     .index_sec42 ul li { width: calc(50% - 10px); }
     .headingOther h2:before { width: 200px; }
     .headingOther { margin-bottom: 20px; }
-    .newsletterRight h2 { font-size: 32px; line-height: 42px; }
+    .newsletterRight h2 { font-size: 32px; line-height: 42.6px; }
     .socialIcon { margin: 0 0 20px; }
     .logInOuter { width: 350px; }
     .users .otp .form-control { width: 36px; height: 36px; }
@@ -360,8 +430,9 @@
     .bannerFormInner { width: 100%; }
     .bannerForm .form-control { height: 45px; }
     .bannerBtn .btn { line-height: 20px; height: 45px; }
-    .bannerForm .error {font-size: 11px;}
-    .bannerFormAll:last-child .bannerForm .error {min-width: 270px;}
+    .bannerForm .error { font-size: 11px; }
+    .bannerFormAll:last-child .bannerForm .error { min-width: 270px; }
+    .dateTwoOuter { width: 100%; }
     /* END BannerForm */
 
     .passEco_dropBox { top: 55px; right: -20px; width: 550px; padding: 15px; }
@@ -380,7 +451,7 @@
     .profile_sidebar { width: 100%; padding: 20px; border-right: 0; border-bottom: 1px solid #f2f2f2; box-shadow: 0 1px 2px #f2f2f2; }
     .profile_content { width: 100%; }
     .prof_div5, .prof_div61 { padding: 20px; }
-    .prof_div3 h3 { font-size: 22px; line-height: 32px; }
+    .prof_div3 h3 { font-size: 22px; line-height: 29.3px; }
     .secondPartForm .form-group { width: 100%; }
     .priceRadio .radioCustom { width: 100%; }
     .filterLeft { border: 1px solid #ddd; }
@@ -390,39 +461,59 @@
     .contactAddress { padding: 40px 0 20px; }
     .contactAddress ul li { width: 100%; margin: 0 0 30px; }
 
+    /* START Range-Calender */
+    .dateTwoInner label:before, .dateInner label:before { top: 14px !important; }
+    /* END Range-Calender */
+
+    /* START comingSoonMain */
+    .comingSoonMain { padding: 70px 0; }
+    .comingSoonInner img { width: 250px; margin: 0 0 40px; }
+    .comingSoonInner h2 { font-size: 45px; line-height: 60px; margin: 0 0 20px; }
+    .comingSoonInner p { font-size: 15px; line-height: 20px; margin: 0 0 30px; }
+    /* END comingSoonMain */
+
 }
 
 @media (max-width: 575px) {
+    /* START Travel */
+    .headingTravel h2 { font-size: 32px; line-height: 42.6px; }
+    .travelBannerAreaInner h1 { font-size: 46px; line-height: 61.3px; }
+    .travelBannerAreaInner h2 { font-size: 24px; line-height: 32px; }
+    .priceBlock { width: 100%; }
+    .travelMissionInner  { width: 100%; min-height: auto; }
+    .howTravelInner { width: 100%; min-height: auto; }
+    /* END Travel */
+
     .desk_logo1 { display: none; }
     .navbar-brand>img.mobile_logo { display: block; width: 45px; }
     .fixed_header .desk_logo2 { display: none; }
     .profile_header .desk_logo2 { display: none; }
     .users .form-group { margin: 0 0 20px; }
     .headingOther { margin: 0 0 15px; }
-    .logIn h2 { font-size: 32px; line-height: 40px; }
+    .logIn h2 { font-size: 32px; line-height: 42.6px; }
     .footerTop { padding: 30px 0 0; }
     .footerInner { min-height: auto; }
     .greatTravel_Inner { width: 100%; }
     .newsletterRight h2:before { right: -97px; bottom: 0; width: 200px; height: 100px; }
     .newsletterRight p { margin: 0 0 25px; }
-    .bannerAreaInner h1 { font-size: 46px; line-height: 62px; }
+    .bannerAreaInner h1 { font-size: 46px; line-height: 61.3px; }
     .bannerAreaInner h1:before { width: 200px; height: 67px; }
-
+    .bannerFormAll:last-child .bannerForm .error { min-width: auto; }
 
     .index_sec22 ul li { width: 100%; }
     .dateInner input { text-align: left; }
-    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 32px; line-height: 40px; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 32px; line-height: 42.6px; }
     .index_sec211 h2 span:before { width: 195px; height: 12px; }
     .index_sec21 { gap: 10px; }
     .index_sec2, .index_sec4, .greatTravelMain { padding-top: 25px; padding-bottom: 30px; }
-    .index_sec212 p, .newsletterRight p, .headingOther p, .index_sec41 p { font-size: 15px; line-height: 22px; }
+    .index_sec212 p, .newsletterRight p, .headingOther p, .index_sec41 p { font-size: 15px; line-height: 20px; }
     .index_sec22 { margin-top: 15px; }
     .index_sec22 ul li .img_box { height: 200px; }
     .index_sec3 { padding: 20px 15px 25px; }
     .index_sec32 h2 { margin-bottom: 10px; }
-    .index_sec32 p { font-size: 16px; line-height: 22px; }
+    .index_sec32 p { font-size: 16px; line-height: 21.6px; }
     .index_sec31 ul li p span { font-size: 15px; }
-    .index_sec31 ul li p { font-size: 16px; line-height: 22px; }
+    .index_sec31 ul li p { font-size: 16px; line-height: 21.6px; }
     .index_sec31 ul li { width: 190px; padding: 10px; }
     .index_sec31 ul li img { height: 45px; margin-bottom: 20px; }
     .newsletterRight h2 { font-size: 30px; line-height: 40px; }
@@ -431,7 +522,7 @@
     .headingOther h2 { margin-bottom: 12px; }
     .index_sec1 ul li { padding: 15px 10px; }
     .index_sec1 ul { gap: 15px; }
-    .index_sec1 ul li p { font-size: 14px; line-height: 18px; }
+    .index_sec1 ul li p { font-size: 14px; line-height: 18.6px; }
     .passEco_dropBox { right: calc(50% - 175px); width: 350px; }
     .passEco_dropBox > div { gap: 20px; flex-direction: column; }
     .passEco_drop1, .passEco_drop2 { width: 100%; }
@@ -451,7 +542,7 @@
     .profile_sec1 { padding: 15px 0; }
     .error_sec1 { padding: 30px 0; }
     .error_sec2 img { width: 350px; }
-    .error_sec2 h3 { font-size: 24px; line-height: 28px; margin: 15px 0; }
+    .error_sec2 h3 { font-size: 24px; line-height: 32px; margin: 15px 0; }
     .flightSummaryInner ul li:first-child { width: 100%; }
     .flightSummaryInner ul li:nth-child(2) { width: 100%; }
     .flightSummaryInner ul li:nth-child(3) { width: 100%; padding-left: 0; }
@@ -463,7 +554,7 @@
 
 
     .bannerAreaInner > p { font-size: 24px; line-height: 32px; }
-    .bannerArea { padding: 10px 0 40px; }
+    .bannerArea { padding: 30px 0 20px; }
     .dateInner { width: 50%; }
     .bannerFormInner { width: 100%; }
 
@@ -481,16 +572,26 @@
     .bannerFromTo, .dateInner { width: 100%; }
     .bannerForm .form-control { border: none; }
     .bannerForm .bannerFromTo:first-child .form-control { border: none; }
-
+    .clearBtn { display: inline-block; width: 100%; position: relative; margin: 0 0 10px; }
+    .clearBtn span, .clearBtn span { position: unset; }
+    /* START Range-Calender */
+    .dateTwoOuter { position: relative; width: 100%; }
+    .dateTwoInner { display: flex; flex-wrap: wrap; }
+    .dateTwoInner label { width: 100%; margin: 0 0 35px !important; }
+    .dateTwoInner label:last-child { margin: 0 !important; }
+    /* END Range-Calender */
 }
 
 @media (max-width: 480px) {
-    .logIn h2 { font-size: 28px; line-height: 37px; margin-bottom: 10px; }
-    .bannerAreaInner h1 { font-size: 42px; line-height: 55px; }
+    .travelBannerAreaInner h1 { font-size: 42px; line-height: 56px; }
+    .travelBannerAreaInner h2 { font-size: 24px; line-height: 32px; }
+
+    .logIn h2 { font-size: 28px; line-height: 37.3px; margin-bottom: 10px; }
+    .bannerAreaInner h1 { font-size: 42px; line-height: 56px; }
     .bannerAreaInner h1:before { width: 175px; height: 60px; }
-    .bannerAreaInner > p { font-size: 22px; line-height: 30px; margin-bottom: 15px; }
+    .bannerAreaInner > p { font-size: 22px; line-height: 29.3px; margin-bottom: 15px; }
     .bannerRadio .radioCustom { margin-bottom: 4px; }
-    .bannerArea { padding: 0 0 50px; }
+
     .navbar-light .navbar-toggler { padding: 2px 5px; }
     .newsletterRight h2:before { display: none; }
     .newsletterRight { padding-top: 28px; padding-bottom: 40px; }
@@ -507,7 +608,7 @@
     .navbar-brand>img { width: 45px; }
     header.profile_header { padding: 0; }
     .navbar-nav li .btn.nav-link { margin-right: 45px; }
-    .b-menu { width: 28px; right: 16px; }
+    .b-menu { width: 28px; }
     .user_profile { margin-right: 45px; }
     .b-bun--bottom, .b-bun--mid, .b-bun--top { width: 28px; }
     .b-bun--mid { top: 6px; }
@@ -517,7 +618,7 @@
     .desk_logo1, .profile_header .desk_logo2 { display: none; }
     .copyInner p { font-size: 12px; }
     .copy { padding: 15px 0; }
-    .passEco_drop1 h4, .passEco_drop2 h4 { font-size: 15px; line-height: 18px; }
+    .passEco_drop1 h4, .passEco_drop2 h4 { font-size: 15px; line-height: 20px; }
     .apply_filters a { font-size: 14px; }
     .users { max-width: 100%; width: 100%; }
     .users .form-control { height: 45px; }
@@ -528,22 +629,26 @@
     .error_sec2 img { width: 300px; }
 }
 @media (max-width: 450px) {
+    .travelBannerAreaInner h1 { font-size: 40px; line-height: 53.3px; }
+    .travelBannerAreaInner h2 { font-size: 22px; line-height: 29.3px; }
+    .travelBannerAreaInner p { font-size: 14px; line-height: 18.6px; }
+
     .index_sec1 ul li { width: 100%; flex-direction: row; align-items: center; padding: 10px; }
     .index_sec1 ul li img { height: 30px; }
     .index_sec1 ul { gap: 10px; }
     .index_sec1 ul li p { font-size: 15px; line-height: 20px; }
-    .bannerAreaInner h1 { font-size: 40px; line-height: 52px; }
+    .bannerAreaInner h1 { font-size: 40px; line-height: 53.3px; }
     .bannerAreaInner h1:before { width: 168px; height: 54px; }
-    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 28px; line-height: 36px; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 28px; line-height: 37.3px; }
     .index_sec211 h2 span:before { width: 170px; }
-    .content_box h3 { font-size: 17px; line-height: 23px; }
+    .content_box h3 { font-size: 17px; line-height: 22.6px; }
     .index_sec22 ul li .img_box { height: 180px; }
     .index_sec41 h2 { margin-bottom: 8px; }
     .index_sec41 ul { margin-top: 15px; }
     .index_sec41 { padding-bottom: 15px; margin-bottom: 15px; }
-    .newsletterRight h2 { font-size: 26px; line-height: 34px; }
+    .newsletterRight h2 { font-size: 26px; line-height: 34.6px; }
     .newsletterRight { padding-top: 20px; padding-bottom: 30px; }
-    .newsletterRight .form-control, .newsletterRight button { height: 45px; font-size: 14px; line-height: 18px; }
+    .newsletterRight .form-control, .newsletterRight button { height: 45px; font-size: 14px; line-height: 18.6px; }
     .headingOther h2:before { width: 160px; bottom: -5px; }
     .headingOther { margin: 0 0 12px; }
     .greatTravel_Outer { gap: 15px; }
@@ -555,7 +660,7 @@
     .prof_div2 ul li:first-child span { font-size: 30px; width: 28px; height: 28px; top: -1px; }
     .prof_div2 ul li p { font-size: 15px; }
     .prof_div5, .prof_div61 { padding: 15px; }
-    .prof_div3 h3 { font-size: 20px; line-height: 28px; }
+    .prof_div3 h3 { font-size: 20px; line-height: 26.6px; }
     .prof_div3 { margin-bottom: 15px; }
     .prof_div4 { width: 120px; height: 110px; margin-bottom: 20px; }
     .upload_files > img { width: 34px; }
@@ -567,41 +672,44 @@
 }
 @media (max-width: 400px) {
     .b-nav, .b-nav.open { width: 270px; }
-    .footerTop h3 { font-size: 15px; line-height: 22px; }
+    .footerTop h3 { font-size: 15px; line-height: 20px; }
     .footerInner ul li a { font-size: 13px; }
     .footerInner p , .addressFooter ul li p { font-size: 13px; line-height: 20px; }
     .passEco_dropBox { right: calc(50% - 150px); width: 300px; }
     .error_sec2 img { width: 250px; }
-    .error_sec2 h3 { font-size: 22px; line-height: 26px; }
+    .error_sec2 h3 { font-size: 22px; line-height: 29.3px; }
     .error_sec2 p { font-size: 15px; }
     .modalCustom .modal-dialog { min-width: 98%; }
 }
 @media (max-width: 360px) {
-    .bannerAreaInner h1 { font-size: 36px; line-height: 46px; }
+    .bannerAreaInner h1 { font-size: 36px; line-height: 48px; }
     .bannerAreaInner h1:before { width: 143px; height: 48px; left: -10px; }
-    .bannerAreaInner > p { font-size: 20px; line-height: 25px; font-weight: 500; }
-    .index_sec1 ul li p { font-size: 14px; line-height: 18px; }
-    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 26px; line-height: 32px; }
+    .bannerAreaInner > p { font-size: 20px; line-height: 26.6px;  }
+    .index_sec1 ul li p { font-size: 14px; line-height: 18.6px; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 26px; line-height: 34.6px; }
     .index_sec42 ul li { width: 100%; }
     .index_sec41 ul { gap: 10px; }
     .index_sec41 ul li { padding: 6px 8px; }
     .b-bun--bottom, .b-bun--mid, .b-bun--top { width: 26px; }
-    .b-menu { width: 26px; }
     .navbar-nav li .btn.nav-link { margin-right: 40px; }
     .users { padding: 20px 15px; }
     .logInArea a.logo img { width: 170px; }
     .logInLeft { height: 200px; }
-    .logIn h2 { font-size: 26px; line-height: 32px; }
+    .logIn h2 { font-size: 26px; line-height: 34.6px; }
     .logIn { margin: 0 0 20px; }
     .users .form-control { height: 40px; }
     .users .btn { height: 40px; font-size: 14px; line-height: 40px; }
 }
 
 @media (max-width: 340px) {
-    .bannerAreaInner h1 { font-size: 34px; line-height: 44px; }
+    .headingTravel h2{ font-size: 28px; line-height: 37.3px; }
+    .travelBannerAreaInner h1 { font-size: 34px; line-height: 45.3px; }
+
+    .passEco_dropdown > a span:last-child { padding-left: 15px; }
+    .bannerAreaInner h1 { font-size: 34px; line-height: 45.3px; }
     .bannerFromTo { width: 100%; }
-    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 24px; line-height: 30px; }
-    .index_sec212 p, .newsletterRight p, .headingOther p, .index_sec41 p { font-size: 14px; line-height: 20px; }
+    .index_sec211 h2, .index_sec32 h2, .index_sec41 h2, .headingOther h2 { font-size: 24px; line-height: 32px; }
+    .index_sec212 p, .newsletterRight p, .headingOther p, .index_sec41 p { font-size: 14px; line-height: 18.6px; }
     .index_sec22 ul li .img_box { height: 150px; }
     .index_sec41 ul li p { font-size: 13px; }
     .index_sec41 ul li { padding: 5px 6px; }
